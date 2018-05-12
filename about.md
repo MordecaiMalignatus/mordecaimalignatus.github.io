@@ -4,15 +4,12 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi, I'm Mordecai. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I try to write software and nifty little tools that might make your life
+easier, but they might only help me, it's hard to say. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I'm a student of CS at the Technical University of Munich, and I'm employed as
+backend developer at [Ryte](https://en.ryte.com). In my free time I care for my
+cats, my fiancee, and make small programs that (I hope) are useful. 
 
-
-[jekyll-organization]: https://github.com/jekyll
