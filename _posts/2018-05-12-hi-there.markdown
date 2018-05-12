@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Hi there."
+date:   2018-05-12 15:24:09 +0200
+categories: introduction tools
+---
+
+Hi. I'm Mordecai, I'm a guy who cares a whole lot about tools, and how we use
+them, and how we can make better ones. When you work with me, I'll be the one
+making scripts and tools to help you work better, because I believe that the
+capability of our tools shape and form how we think and how far we think. If
+you can deploy an application to a server in a single button press, you will
+deploy a lot more. If moving functions and types around files is very easy,
+your groupings in code will become more sensible, as opposed to gradually
+accumulating in a giant file innocently named `utils`.
+
+I also have two cats that keep me from actually writing things, and an
+unhealthy fascination with tea.
