@@ -17,6 +17,6 @@ github_username:  MordecaiMalignatus
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-minimal
+remote_theme: chesterhow/tale
 plugins:
   - jekyll-feed
