@@ -14,9 +14,13 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "blog.malignat.us" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: m_malignatus
 github_username:  MordecaiMalignatus
+permalink:  /:year-:month-:day/:title
+paginate:   5
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: tale
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
