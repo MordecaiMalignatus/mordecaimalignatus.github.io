@@ -14,9 +14,12 @@ baseurl: ""
 url: "blog.malignat.us" 
 twitter_username: m_malignatus
 github_username:  MordecaiMalignatus
+permalink: /:year-:month-:day/:title
 
 # Build settings
 markdown: kramdown
 remote_theme: chesterhow/tale
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-remote-theme
