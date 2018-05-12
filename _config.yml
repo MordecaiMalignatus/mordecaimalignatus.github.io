@@ -15,6 +15,7 @@ url: "blog.malignat.us"
 twitter_username: m_malignatus
 github_username:  MordecaiMalignatus
 permalink: /:year-:month-:day/:title
+paginate: 10
 
 # Build settings
 markdown: kramdown
