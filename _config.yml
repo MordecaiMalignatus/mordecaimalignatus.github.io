@@ -17,9 +17,12 @@ github_username:  MordecaiMalignatus
 permalink: /:year-:month-:day/:title
 paginate: 10
 
+sass: 
+  sass_dir: _sass
+  style: compressed
+
 # Build settings
 markdown: kramdown
-remote_theme: chesterhow/tale
 plugins:
   - jekyll-feed
   - jekyll-paginate
