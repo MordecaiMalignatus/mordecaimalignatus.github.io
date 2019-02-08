@@ -18,13 +18,13 @@ you when you see them, but are never enough of a priority to fix them for
 themselves.
 
 Examples for tasks like this include changing the laces on your shoes,
-organizing and throwing out old tea, unloading the dishwasher because you saw it
+organising and throwing out old tea, unloading the dishwasher because you saw it
 being done, merging open boxes of pasta, buying an extra charging cable for your
 phone online. Things that take 30 seconds or 4 minutes by themselves, that don't
 require that much thought, that you eventually need to do anyways, but can do
 mostly on autopilot.
 
-I derive an enourmous amount of freedom to think and plan or mull over events
+I derive an enormous amount of freedom to think and plan or mull over events
 from this. This is perhaps the time I think best, and the reason I always have
 pre-prepped vegetables in my fridge, because prepping for cooking falls under
 the same category for me. This is the space in which I will come up with ideas
@@ -44,11 +44,19 @@ at least for some time each day. The tasks are similar, just a bit different:
   keep ideas from being lost)
 - Sorting and removing or moving the post-its that your desk or your screens
   have accumulated.
-- Writing a SSH confit that has mnemonics for your common destinations.
+- Writing a SSH configuration that has mnemonics for your common destinations.
 - Writing scripts for things you find yourself doing over and over again.
 
-This is basically my sanity valve. If I have a shitty time/day, I will do more
-of this, if I'm feeling really pumped I can skip this completely. It's also
+It provides some of the best opportunities for learning about the systems you
+work on. Not being overly focused on the very thing you want to fix means you
+see the lines and traces as systems interact with each other without being
+compelled to force them to work in different ways. This allows for actually
+absorbing the flow of information and the interaction of systems instead of
+getting to know one small spot really well (otherwise known as fixing a bug or
+adding a feature)
+
+This is also basically my sanity valve. If I have a shitty time/day, I will do
+more of this, if I'm feeling really pumped I can skip this completely. It's also
 where I come up with my best ideas, and my most important re-considerations of
 what I thought were great ideas. I think you should make some room for this,
 too.
