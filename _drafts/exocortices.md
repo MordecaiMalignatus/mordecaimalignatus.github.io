@@ -2,7 +2,7 @@
 title: Exocortices
 author: Mordecai
 layout: post
-tags: organization exocortices
+tags: organization exocortex
 ---
 
 # What they are and their implementations.
@@ -10,7 +10,7 @@ tags: organization exocortices
 At some point, everyone who deals with knowledge for a living in some form, will
 stumble into the problem that they forget more than they really want to, and
 rack their brains trying to remember what insight they had a week ago while
-reading that paper.
+reading that one paper they found in some reference section.
 
 
 - This is the fourth iteration of this idea, after each previous one was
@@ -76,17 +76,38 @@ Research"](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html))
 
 ## Why personal wikis fail
 
-- This being specifically about Wikipedia-like wikis, like MediaWiki, Gollum, or
-  DocuWiki.
-- It is my thesis that you can maintain one very large page, and a lot of small
-  ones, but not several medium-sized pages that aggregate multiple ideas in a
-  single page, you will not be able to find them again
-- Names for pages are usually misleading as the pages themselves aggregate more
-  than the one idea the page is named after, making the other ideas become
-  'lost'
-- Traditional wiki tools are poor, and encourage larger pages because finding and
-  using links is slow. Adjacent ideas have to be linked in the text rather than
-  associated with the page because multiple ideas are on the same page.
+One effect I have noticed in trying to implement this for myself is that
+Wiki-like implementations (I have previously tried DocuWiki and Gollum, before
+abandoning the approach) always eventually found themselves unused, vastly out
+of date, or having duplicated, conflicting information everywhere. I'm
+attributing this to a few things, like reliability, interface and fragility, but
+most centrally, the average size of a page, or node in the graph.
+
+I have a theory that you can maintain either one very large page, where you
+gather all of your information/ideas/notes in one file and use text search,
+structural parsers and file-internal links to navigate (see: the `notes.md`
+files I know a lot of people to have), or you can maintain a bunch of tiny pages
+and use tooling for navigation and structure (see: my `org-kasten.el`). I do not
+have any evidence for this past musing over failed attempts of myself, though.
+
+Wikis on the other hand encourage a medium sized collection of medium-sized
+pages, where you are encouraged to put further context with an idea. Navigation is
+comparatively clunky, as you have to hunt for the links in the text. Pages
+usually contain clusters of ideas which sometimes are actual clusters (where
+every idea is related to all others on the page) and sometimes they are
+insight-chains: A relates to B which is basically like C and can be likened to
+D, but A and D have nothing to do with each other. Insight chains are part of
+the reason I have found wikis to fail - it becomes very hard to ever find D
+again when you have an idea that relates to D, as page it is contained in (A) is
+only tangentially related to D.
+
+Wikis are excellent if you have a larger community and people that will refactor
+inconsistencies and create categories, links, and portals. The du jour example,
+Wikipedia, is one of the most wonderful creations of the modern age. But you are
+just one person, trying to remember what a Monoid was and how it relates to a
+Semigroup. You have limited capability to fix inconstencies and perform wiki
+maintenance, and so you eventually don't. The cruft accumulates, the wiki
+becomes unused, the knowledge in it, lost.
 
 ## Inspiration
 
