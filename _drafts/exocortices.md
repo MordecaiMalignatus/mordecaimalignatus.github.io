@@ -32,28 +32,29 @@ reading that one paper they found in some reference section.
   primary audience is the person who wrote them, and I would not expect any of
   mine to be as useful to anyone else as they are to myself.
 
-### Upsides and downsides of an exocortex
 
-There are plenty of reasons not to use one, of course:
+## Upsides and downsides of an exocortex
 
-- It makes you dependent on your cortex being present for writing and for using
-  it. This is a much bigger problem if you keep your cortex in index card form,
-  and the original reason why I translated it to use plain text instead.
-- You will be struggling if it somehow is lost, as a lot of thought is
-  externalised to the cortex. This makes you quite dependent on having it
-  there.
+So why should you do this to yourself, why take the responsiblity for thinking
+and fermenting thought away from your head, and entrust it to a system imposed
+on text? Well, there are a bunch of reasons why you would **not** want to do
+that.
 
-Upsides:
+The most impactful downside to having and relying on an exocortex is, put
+simply, you're screwed when it's not there. It's a structure you come to rely on
+heavily, for thinking and composing ideas, and that makes it hard to work if it
+isn't present. This, originally, was the reason for writing my version of a
+plain-text-based exocortex. I forgot my index card based original structure on
+the way to the library and, well, had to go back home, grab it, and go back to
+the library before I was actually able to do the thinking I originally
+wanted. The same problem, but more severe happens when you lose it, it will take
+a long time to reconstruct, if you ever fully do.
 
-- My workaround to those two is to keep my exocortex in the most universal of
-  formats: plain text in a synced folder.
-- Writing about your ideas makes them a lot less liable to simply disappear on
-  you. If you write down the ideas you have, your thinking also becomes
-  interruptible -- you are less dependent on having long stretches of quiet time
-  to achieve insight.
-  - This is doubly valuable in today's environment of open-plan offices
-
----
+I 'fixed' (worked around, rather) this by moving to a digital version that uses
+a series of plain text files in a synched file folder (Dropbox or Syncthing,
+whatever you already have set up), which makes sure I don't forget it. It does
+come with the (smaller) downside of not being able to use it without a computer
+that is appropriately setup.
 
 The biggest upside to adopting an exocortex for thinking, to me, is being
 "forced" to write down any idea I consider worthwhile. This forces you to put
@@ -68,9 +69,11 @@ This also makes your thinking interruptible. If you write down every idea and
 insight about said ideas you have, an interruption will not break down grand
 mental castles of insight that you will need to painfully reconstruct. This is,
 to put it mildly, incredibly valuable in the open-plan offices that are the norm
-today. The ability to just put down your work, and go do something that is
-important elsewhere is an amazing capability in modern offices. There is also,
-of course, a wonderful [Hamming
+today. I dislike being interrupted as much as the next person in flow, but since
+it's a reality of the modern office life, we might as well build systems to
+mitigate the impact they have. The ability to just put down your work, and go do
+something that is important elsewhere is an amazing capability in modern
+offices. There is also, of course, a wonderful [Hamming
 quote](https://gist.github.com/b3d44ed936ce863f2232145d85019d01) for this.
 
 Thinking-by-writing is, in my opinion, an underutilized tools for finding
@@ -79,23 +82,6 @@ times is a very simple tool to be able to share your thoughts, get feedback on
 them faster, and makes you see the holes in your logic as soon as you come back
 from lunch, glance at your notes and realise why your planned approach won't
 work before you're halfway through implementing it.
-
-The most impactful downside to having and relying on an exocortex is, put
-simply, you're screwed when it's not there. It's a structure you come to rely on
-heavily, for thinking and composing ideas, and that makes it hard to work if it
-isn't present. This, originally, was the reason for writing my version of an
-exocortex. I forgot my index card based original structure on the way to the
-library and, well, had to go back home, grab it, and go back to the library
-before I was actually able to do the thinking I originally wanted. The same
-problem, but more severe happens when you lose it, it will take a long time to
-reconstruct, if you ever fully do.
-
-I 'fixed' (worked around, rather) this by moving to a digital version that uses
-a series of plain text files in a synched file folder (Dropbox or Syncthing,
-whatever you already have set up), which makes sure I don't forget it. It does
-come with the (smaller) downside of not being able to use it without a computer
-that is appropriately setup.
-
 
 ## Why personal wikis fail
 
@@ -132,15 +118,20 @@ Semigroup. You have limited capability to fix inconstencies and perform wiki
 maintenance, and so you eventually don't. The cruft accumulates, the wiki
 becomes unused, the knowledge in it, lost.
 
-## Inspiration
+## Inspiration and Attribution
 
-- How to take smart notes and the works of Luhmann.
-- I am not really inventing anything new here, I'm just providing an alternative
-  tool to transport Luhmann's and Ahrend's ideas to files. For other
-  translations, see [The Archive](https://zettelkasten.de/the-archive/), which
-  is another translation of roughly the same method. My method diverged a little
-  as I developed it, which makes The Archive the more faithful translation, as
-  far as I am able to tell.
+To the people who have been around this particular block will notice I'm not
+proposing anything new here, nor am I proclaiming to do so. This concept is
+based on the Zettelkasten proposed in Ahrens' book *How To Take Smart Notes*,
+which itself takes principles and ideas chiefly from German sociologist Niklas
+Luhmann, but also from authors who utilized a similar techniques like Vladimir
+Nabokov.
+
+For technological translations of this methodology that was originally based on
+index cards, see [The Archive](https://zettelkasten.de/the-archive/). This is
+the most faithful digital translation of the Zettelkasten method. I wrote an
+Emacs based alternative for myself, `org-kasten.el`, based on my experiences and
+shortcomings found when using a purely paper-based workflow.
 
 ## The simplest structure that could still work
 
