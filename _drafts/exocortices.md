@@ -20,7 +20,6 @@ reading that one paper they found in some reference section.
 
 ## The concept for an Exocortex
 
-- Thanks to Elly for the name.
 - An exocortex is any structure authored by one person for the sole sake of aiding
   their thought process. Any such structure must be actively and heavily used in
   order to maintain its usefulness.
@@ -32,6 +31,8 @@ reading that one paper they found in some reference section.
   primary audience is the person who wrote them, and I would not expect any of
   mine to be as useful to anyone else as they are to myself.
 
+(Thanks to Elly for coming up with the term 'exocortex'. It's a far better
+one than I could have come up with.)
 
 ## Upsides and downsides of an exocortex
 
