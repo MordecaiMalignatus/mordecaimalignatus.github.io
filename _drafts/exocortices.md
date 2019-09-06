@@ -53,26 +53,49 @@ Upsides:
   to achieve insight.
   - This is doubly valuable in today's environment of open-plan offices
 
-#### Hamming
+---
 
->I notice that if you have the door to your office closed, you get
-more work done today and tomorrow, and you are more productive than most. But 10
-years later somehow you don't know quite know what problems are worth working
-on; all the hard work you do is sort of tangential in importance. He who works
-with the door open gets all kinds of interruptions, but he also occasionally
-gets clues as to what the world is and what might be important. Now I cannot
-prove the cause and effect sequence because you might say, ``The closed door is
-symbolic of a closed mind.'' I don't know. But I can say there is a pretty good
-correlation between those who work with the doors open and those who ultimately
-do important things, although people who work with doors closed often work
-harder. Somehow they seem to work on slightly the wrong thing - not much, but
-enough that they miss fame.
+The biggest upside to adopting an exocortex for thinking, to me, is being
+"forced" to write down any idea I consider worthwhile. This forces you to put
+your idea and insight into words, and write it out in such a manner that you
+will be able to understand it later. This will often make you realize what the
+holes in your idea are, where you have to go look for other ideas that will plug
+this hole, and why an argument may simply not be valid. (The effect of "being
+forced to explain what you think makes you realize if you actually understand
+something" is also popularly known as the Feynmann Effect.)
 
-(from ["You and Your
-Research"](https://www.cs.virginia.edu/~robins/YouAndYourResearch.html))
+This also makes your thinking interruptible. If you write down every idea and
+insight about said ideas you have, an interruption will not break down grand
+mental castles of insight that you will need to painfully reconstruct. This is,
+to put it mildly, incredibly valuable in the open-plan offices that are the norm
+today. The ability to just put down your work, and go do something that is
+important elsewhere is an amazing capability in modern offices. There is also,
+of course, a wonderful [Hamming
+quote](https://gist.github.com/b3d44ed936ce863f2232145d85019d01) for this.
 
- - This effect is not unique or dependent on an exocortex but merely on
-    thinking-by-writing, which you can implement without adopting an exocortex.
+Thinking-by-writing is, in my opinion, an underutilized tools for finding
+logical holes early, forcing yourself to put your thoughts into words at all
+times is a very simple tool to be able to share your thoughts, get feedback on
+them faster, and makes you see the holes in your logic as soon as you come back
+from lunch, glance at your notes and realise why your planned approach won't
+work before you're halfway through implementing it.
+
+The most impactful downside to having and relying on an exocortex is, put
+simply, you're screwed when it's not there. It's a structure you come to rely on
+heavily, for thinking and composing ideas, and that makes it hard to work if it
+isn't present. This, originally, was the reason for writing my version of an
+exocortex. I forgot my index card based original structure on the way to the
+library and, well, had to go back home, grab it, and go back to the library
+before I was actually able to do the thinking I originally wanted. The same
+problem, but more severe happens when you lose it, it will take a long time to
+reconstruct, if you ever fully do.
+
+I 'fixed' (worked around, rather) this by moving to a digital version that uses
+a series of plain text files in a synched file folder (Dropbox or Syncthing,
+whatever you already have set up), which makes sure I don't forget it. It does
+come with the (smaller) downside of not being able to use it without a computer
+that is appropriately setup.
+
 
 ## Why personal wikis fail
 
