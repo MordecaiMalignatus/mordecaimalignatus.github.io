@@ -5,18 +5,41 @@ layout: post
 tags: organization exocortex
 ---
 
-# What they are and their implementations.
-
 At some point, everyone who deals with knowledge for a living in some form, will
 stumble into the problem that they forget more than they really want to, and
 rack their brains trying to remember what insight they had a week ago while
 reading that one paper they found in some reference section.
 
+I tried to stop the continuous forgetting of information that I would need
+later, but it turns out that typically information is not the part you end up
+missing - You can always search for facts - but insight is something you dearly
+miss. . Serialising insight is a lot harder than just noting down facts, and
+thus also less often done. We can make this process a little easier by
+constraining the audience: Making something understandable to everyone is
+intensely difficult, as any teacher will tell you. Making yourself understand
+something in the future that you already understood in the past is doable. If we
+then take this idea a little further, and rely on our ability to re-understand
+something from material we left behind for ourselves, we can then forgo trying
+to keep it in our heads. (It will remain in our heads, due to spaced repetition
+when revisiting the material, but we no longer have to concern ourselves with
+keeping it there.) With all that newfound mental space we gain from no longer
+having to strain to remember the details of how our ideas relate to ideas that
+we read about, and the consequence of synthesising the two, we can turn to the
+thing we set out to do: Gain more insight into our fields of interest.
 
-- This is the fourth iteration of this idea, after each previous one was
-  scrapped for not working and not actually assisting my thought process.
-- This is looking like the first time it's sticking and working out correctly,
-  so I thought I'd write about it.
+What I'll set out below are some of the things I found while assembling a
+mechanism for writing and consuming such memory-aiding material. I went through
+four iterations of such mechanisms, a personal wiki in Gollum, a set of
+semantically-named markdown files in a folder in Dropbox, a pile of index cards
+with nothing digital about them, and now, a set of numerically titled `org-mode`
+files in a folder in Dropbox.  This is the first iteration that is sticking in
+my habits and my mind insteda of becoming a graveyard for thoughts, so I thought
+I'd write up what I found.
+
+At last, a request for help: I know of the existence of the field of
+metacognition, but I know not where to start. If you know of resources related
+to this, or that you think I'd be interested in based on this post, please do
+let me know via one of the means listed in the footer.
 
 ## The concept for an Exocortex
 
@@ -62,9 +85,10 @@ The biggest upside to adopting an exocortex for thinking, to me, is being
 your idea and insight into words, and write it out in such a manner that you
 will be able to understand it later. This will often make you realize what the
 holes in your idea are, where you have to go look for other ideas that will plug
-this hole, and why an argument may simply not be valid. (The effect of "being
-forced to explain what you think makes you realize if you actually understand
-something" is also popularly known as the Feynmann Effect.)
+this hole, and why an argument may simply not be valid. In a way, the difficulty
+of serialzing insight is what helps us here. (The effect of "being forced to
+explain what you think makes you realize if you actually understand something"
+is also popularly known as the Feynmann Effect.)
 
 This also makes your thinking interruptible. If you write down every idea and
 insight about said ideas you have, an interruption will not break down grand
