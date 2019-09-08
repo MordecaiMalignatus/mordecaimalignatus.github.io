@@ -143,6 +143,52 @@ Semigroup. You have limited capability to fix inconstencies and perform wiki
 maintenance, and so you eventually don't. The cruft accumulates, the wiki
 becomes unused, the knowledge in it, lost.
 
+## The simplest structure that could still work
+
+In the light of wikis failing, and the way in which I believe them to fail, I
+made some adjustments for `org-kasten.el` that I have found helpful in achieving
+the goal of beign able to retain and synthesize new insight:
+
+Node size was reduced severely. Luhmann used index cards, and I believe he
+did so for good reason. If you have too much space, you will put multiple ideas
+in one node again, leading to the wiki problem. One idea or piece of insight per
+node, no more, no less.
+
+The links between nodes where moved, from being associated to words in the text
+to being associated with the node itself. This is directly enabled by having a
+much smaller node size, and thus, not too much variance in the topic of any
+given word. This enables much better tooling and navigation experience than
+would be possible using text-based links.
+
+A concept of "References" was introduced. The idea is that whenever you read
+something interesting, you create a reference, detailing briefly what you
+read, why it is interesting, and how you can cite/reference it. Then you go
+looking for how it ties into the rest of your ideas. Now your ideas have citable
+sources, and you may have gotten a new view on old insight.
+
+I removed any pre-conceived notion of sorting by topic, or having a taxonomy in
+my notes. In a structure that needs to be as universal as possible, grouping and
+clustering is actively harmful, as it is context dependent. If you group your
+notes by subject, and you have to find similarities between certain aspects, you
+will have to fight your structure to actually find what you need. So, no
+preconceived structures. I use a format of an enumerated ID, plus a brief
+title that describes the idea or what it is about.
+
+That there is no a-priori sorting makes the links between the most unlikely of
+topics plausible. This encourages a sort of "exocortex maximalist" usage, where
+anything that you find insightful at all should wander into your structure, as
+you may be able to link it to things that you never expected. These little
+sparks of insight can be, and often are, the start of something greater.
+
+Lastly, with all these things changed and set up, I use writing as the "pull" in
+this system. That means that this is all good and well, but you need an end to
+put this structure towards. I picked the thing the exocortex causes me to do all
+along, writing. This is the reason you are reading this -- I needed something to
+"pull" on the system, to make me look at everything again, and see what I had
+missed. In the process of writing this, I discovered a whole bunch of
+inconsistencies, errors and also new ideas for `org-kasten`.
+
+
 ## Inspiration and Attribution
 
 To the people who have been around this particular block will notice I'm not
@@ -158,30 +204,14 @@ the most faithful digital translation of the Zettelkasten method. I wrote an
 Emacs based alternative for myself, `org-kasten.el`, based on my experiences and
 shortcomings found when using a purely paper-based workflow.
 
-## The simplest structure that could still work
+Similar ideas have also been included in
+[DevonThink](https://www.devontechnologies.com/apps/devonthink), which is an old
+commercial application that uses similar ideas, but which I never used.
 
-- Very small nodes require tooling to reduce friction, else your pages will
-  become larger again. The index card was the initial medium for a reason, it
-  kept node size small by design.
-- Small nodes enable page-centric links, rather than explicit links in the
-  text - as long as one page represents one idea, the links to each page
-  directly relate to said idea, enabling much easier navigation -- nothing has
-  to be found in the text to follow.
-- Sorting by topic/semantic grouping is actively harmful as the clustering is
-  context-dependent.
-  - Example: If you are looking for similarities across topics rather than at
-    the problems in one topic, a clustering by-topic will hurt more than it
-    helps, you have to fight the hierarchical structure to find your
-    similarities. If you have loosely linked nodes, that kind of similarity is
-    just another link.
-  - This leads to an "exocortex maximalist" usage -- every idea that I want to
-    remember/think about later goes into the kasten. If they are not what I
-    want, the idea will still be there, just be traversed less and gradually
-    forgotten for its lack of links. This is the ideal case.
-- Sharp distinction between your ideas (notes) and other people's ideas
-  (references) as they relate to your thoughts.
-- System geared towards writing: References mean you have citations for your
-  claims from your own reading.
+## Further Reading
+
+- [How To Take Smart Notes, Ahrens, 2017](https://takesmartnotes.com/)
+- [The Luhmann Archive (German)](https://niklas-luhmann-archiv.de/)
 
 ## About this post.
 
@@ -190,3 +220,6 @@ arguments, points, references and mistakes. I would go as far as to
 say that I did not do a lot of thinking for this post, the main points simply
 fell out of traversing the exocortex for what I considered relevant, then
 I drafted prose to connect the dots, and edited.
+
+In that process, a bunch of new ideas also fell out, several bugs were noted and
+fixed, and new insight was gained.
