@@ -8,10 +8,10 @@
 # in the templates via {{ site.myvariable }}.
 title: Mordecai's Ramblings.
 email: mordecai@malignat.us
-description: >- 
+description: >-
   Mordecai's thoughts and ramblings on a great many diverse set of things.
 baseurl: ""
-url: "rambling.malignat.us"
+url: "https://rambling.malignat.us"
 twitter_username: m_malignatus
 github_username:  MordecaiMalignatus
 permalink: /:year-:month-:day/:title
