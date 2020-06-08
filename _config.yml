@@ -10,14 +10,14 @@ title: Mordecai's Ramblings.
 email: mordecai@malignat.us
 description: >- 
   Mordecai's thoughts and ramblings on a great many diverse set of things.
-baseurl: "" 
-url: "blog.malignat.us" 
+baseurl: ""
+url: "rambling.malignat.us"
 twitter_username: m_malignatus
 github_username:  MordecaiMalignatus
 permalink: /:year-:month-:day/:title
 paginate: 10
 
-sass: 
+sass:
   sass_dir: _sass
   style: compressed
 
