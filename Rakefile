@@ -15,6 +15,7 @@ task :new do
   body = <<DOC
 ---
 layout: post
+author: Mordecai
 title: "#{title}"
 date: #{current_date.rfc822}
 categories: notebook

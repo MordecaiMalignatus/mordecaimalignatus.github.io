@@ -3,6 +3,7 @@ layout: post
 title: "Triage, Exhaustion and Loss."
 date: Tue, 9 Jun 2020 12:15:04 -0500
 categories: notebook
+author: Mordecai
 ---
 
 **Content Warning: Depression, mental illness, bad vibes. If that stuff affects

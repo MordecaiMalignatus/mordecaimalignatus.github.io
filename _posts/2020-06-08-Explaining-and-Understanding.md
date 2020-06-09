@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Explaining and Understanding"
+title: "Explaining and Understanding."
 date: Mon, 8 Jun 2020 15:40:20 -0500
+author: Mordecai
 categories: notebook
 ---
 
