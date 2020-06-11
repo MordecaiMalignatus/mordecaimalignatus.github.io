@@ -45,4 +45,4 @@ programming projects, writing this notebook, and cooking/baking, going about
 them precisely as much or as little as I want to. I expect this unlearning
 process to take a whole while, but I'm happy to be doing it.
 
-[1]: No links or screenshots to respect the authors privacy.
+[^1]: No links or screenshots to respect the authors privacy.
