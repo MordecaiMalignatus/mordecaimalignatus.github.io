@@ -10,7 +10,8 @@ task :new do
   current_date = DateTime.now
   puts 'Enter some title'
   title = STDIN.gets.chomp.strip
-  formatted_title = "./_posts/#{current_date.to_date.to_s}-#{title.gsub(/\s/, '-')}.md"
+  cleaned_title = title.downcase.gsub(/[[:punct:]]/, '').gsub(/\s/, '-')
+  formatted_title = "./_posts/#{current_date.to_date.to_s}-#{cleaned_title}.md"
 
   body = <<DOC
 ---
