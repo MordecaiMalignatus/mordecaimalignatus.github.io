@@ -10,7 +10,7 @@ Originally I wanted to explore my relationship to the protestant work ethic
 issues I posted about yesterday, because I remember and have modelled things I
 do after a quote I vaguely remember to be like this:
 
-    The mind is a muscle that needs no rest, only change.
+>The mind is a muscle that needs no rest, only change.
 
 When I tried to find that version of the quote and its originator, I was instead
 confronted with the fact that there are many, many versions of the second half,
