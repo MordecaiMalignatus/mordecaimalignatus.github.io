@@ -7,7 +7,7 @@ categories: notebook
 ---
 
 A while ago. David R. MacIver
-[wrote](https://notebook.drmaciver.com/posts/2020-05-08-10:06.html) wrote a
+[wrote](https://notebook.drmaciver.com/posts/2020-05-08-10:06.html) a
 notebook post on separating impulse from action, specifically to curb impulse
 purchases. This popped into my head today, as, in a sense, I'm confronted with
 the inverse problem. Out of a fear for impulse purchases, I tend to not buy
