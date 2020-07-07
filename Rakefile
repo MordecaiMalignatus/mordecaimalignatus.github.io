@@ -8,7 +8,7 @@ end
 
 task :new do
   current_date = DateTime.now
-  puts 'Enter some title'
+  print 'title: '
   title = STDIN.gets.chomp.strip
   pretty_title = title.split(/\W/).map(&:capitalize).join(" ")
   cleaned_title = title.downcase.gsub(/[[:punct:]]/, '').gsub(/\s/, '-')
