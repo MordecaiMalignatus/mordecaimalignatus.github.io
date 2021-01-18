@@ -22,7 +22,7 @@ task :publish do
   draft_body = File.read(current_drafts[input])
 
   File.write("./_posts/#{current_date}-#{file_name}", mkheader(pretty_name) + draft_body)
-  File.remove(current_drafts[input])
+  File.delete(current_drafts[input])
 end
 
 desc "Generating a new draft"
