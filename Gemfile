@@ -8,7 +8,7 @@ source 'https://rubygems.org'
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem 'jekyll', '~> 3.8.1'
+gem 'jekyll', '~> 4.2.0'
 gem 'jekyll-paginate'
 gem 'jekyll-remote-theme'
 
@@ -20,3 +20,5 @@ gem 'jekyll-remote-theme'
 group :jekyll_plugins do
   gem 'jekyll-feed', '~> 0.6'
 end
+
+gem "webrick", "~> 1.7"
