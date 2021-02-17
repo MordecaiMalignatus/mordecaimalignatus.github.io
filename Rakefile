@@ -2,6 +2,7 @@ require 'date'
 
 task :default => :new
 
+desc "Run the Jekyll server locally with rendered drafts."
 task :serve do
   sh 'bundle exec jekyll serve --drafts'
 end
