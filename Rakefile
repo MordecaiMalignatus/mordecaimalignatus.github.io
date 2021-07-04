@@ -22,8 +22,13 @@ task :publish do
   current_date = DateTime.now.to_date.to_s
   draft_body = File.read(current_drafts[input])
 
-  File.write("./_posts/#{current_date}-#{file_name}", mkheader(pretty_name) + draft_body)
+  new_file = "./_posts/#{current_date}-#{file_name}"
+  File.write(new_file, mkheader(pretty_name) + draft_body)
   File.delete(current_drafts[input])
+
+  sh "git add #{new_file}"
+  sh "git commit -m 'Post: #{pretty_name}'"
+  sh "git push"
 end
 
 desc "Generating a new draft"
