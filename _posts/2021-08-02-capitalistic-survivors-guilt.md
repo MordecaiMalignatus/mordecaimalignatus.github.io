@@ -4,7 +4,6 @@ author: Mordecai
 title: "Capitalistic Survivors Guilt"
 date: Mon, 2 Aug 2021 06:23:23 +0100
 categories: post
-private: true
 ---
 
 Recently, I got a new job, with an impossible to ignore raise attached to it. My
