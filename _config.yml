@@ -15,7 +15,7 @@ url: "https://rambling.malignat.us"
 twitter_username: m_malignatus
 github_username:  MordecaiMalignatus
 permalink: /:year-:month-:day/:title
-paginate: 10
+paginate: 30
 
 sass:
   sass_dir: _sass
