@@ -51,7 +51,7 @@ myself for what I do. I want to be seen as successful, as good at what I do, I
 seek status as a social animal. But in achieving this, I'm facing problems and
 questions I don't know how to get the answer to. Yet, this is very complicated
 to talk about. One only needs to turn to the recent QC twitter drama that [even
-reached regular news sites](qc-link) to know that complaining about wealth and
+reached regular news sites][qc-link] to know that complaining about wealth and
 its effects are considered an impressive failure of empathy. And, I understand
 that. I was there myself. Someone complaining about the negative effects of
 wealth when I was visiting my grandparents three times per week for meals would
