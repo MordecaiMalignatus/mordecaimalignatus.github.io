@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Mordecai
-title: "Capitalistic Survivors Guilt"
+title: "Capitalist Survivor's Guilt"
 date: Mon, 2 Aug 2021 06:23:23 +0100
 categories: post
 ---
