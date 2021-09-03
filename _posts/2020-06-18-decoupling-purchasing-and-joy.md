@@ -36,3 +36,5 @@ intensely penny-pinching fears that linger.
 
 I will try to implement a version of this in the next few days and post it, if
 anybody wants to try it out. I'm curious of the effects.
+
+Update: I have written a tool for this, you can find it [here](https://github.com/MordecaiMalignatus/shed/tree/master/tools/spending-queue)
