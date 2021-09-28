@@ -6,6 +6,10 @@ date: Tue, 28 Sep 2021 08:04:24 +0200
 categories: post
 ---
 
+*Warning for the reader: The stuff in this post is not exactly light morning
+reading and talks of PTSD, abuse, and its consequences. Consider [watching a fox
+interact with a kitten](https://www.reddit.com/r/aww/comments/pwox4a/a_london_fox_came_to_hang_out_with_my_kitten/), instead.*
+
 The struggle of anyone marked by abuse and trauma is to leave things that once
 served you well, things that were necessary to do, in the past. Often,
 especially if the trauma was constant, the frame induced by it and its
