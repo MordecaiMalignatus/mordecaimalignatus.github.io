@@ -42,13 +42,11 @@ task :new do
 end
 
 def mkheader(title)
-  current_date = DateTime.now
   <<~DOC
     ---
     layout: post
     author: Mordecai
     title: "#{title}"
-    date: #{current_date.rfc822}
     categories: post
     ---
 
