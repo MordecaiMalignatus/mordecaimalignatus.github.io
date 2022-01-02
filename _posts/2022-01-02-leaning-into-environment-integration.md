@@ -2,7 +2,6 @@
 layout: post
 author: Mordecai
 title: "Leaning into Environment Integration"
-date: Sun, 2 Jan 2022 12:33:27 +0100
 categories: post, tech
 ---
 
