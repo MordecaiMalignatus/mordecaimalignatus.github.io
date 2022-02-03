@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Mordecai
-title: "A Failure Mode Of ADHD Medication"
+title: "Taking Advantage Of Being Medicated: Revising Pre-Medication Processes."
 ---
 
 Recently, I've been forced to consider precisely *how* I do things, how I work
@@ -10,11 +10,12 @@ about how I work and how I can do well have been trained and engrained for
 decades at this point, and they essentially all became obsolete to varying
 degrees once medication was officially administered.
 
-Yet, I haven't updated my processes. A lot of things I still do now exactly as I
-did them before medication was available to me. The process still revolves
-around externalising everything, factorising and decomposing the projects into
-small slivers of discrete action to be done at a point separate than the
-planning.
+Yet, I haven't really changed how I do things based on this obsoletion. A lot of
+things I still do now exactly as I did them before medication was available to
+me. The process still revolves around externalising everything, factorising and
+decomposing the projects into small slivers of discrete action to be done at a
+point separate than the planning. I've not taken into account how medication
+changes the asssumptions those ways were built on.
 
 After some mulling about how I would precisely describe the impact of medication
 on my wellbeing, I arrived at a model: Medication lets me do better with less
@@ -28,10 +29,11 @@ allowing for higher probability of success with less effort.]({{
 
 Now, the low probability of any project being completed successfully at low
 effort-levels is not practical or acceptable for daily life. The answer, at
-least for me, lay in using process, tools, externalisation and similar 'brain
-hacks' to remove the low-probability-part by force. This is to say, the
-processes make sure that a certain level of effort is invested in *everything*,
-so that the bottom for successrate is at least acceptable:
+least for me, was found in using process, and tools to remove the
+low-probability-part by force. Everything got decomposed and split into tiny
+chunks, written down elsewhere and tracaked. This is to say, the processes made
+sure that a certain level of effort is invested in *everything that needed to be
+done by me*, so that the bottom for successrate is at least acceptable:
 
 ![The same graph, but with the first, low-effort-invested part greyed out, as
 the habits and processes taught by ADHD enforce a certain success rate by always
