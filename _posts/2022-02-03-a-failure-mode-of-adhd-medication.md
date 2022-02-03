@@ -18,7 +18,8 @@ planning.
 
 After some mulling about how I would precisely describe the impact of medication
 on my wellbeing, I arrived at a model: Medication lets me do better with less
-effort. In a graph, I'd roughly express it this way:
+effort. In a graph, I'd roughly express the probability of a project succeeding
+against the amount of effort invested in the project like this:
 
 ![Graph along the axes of "Effort invested" and "probability of success". The
 curve of being medicated is significantly steeper than the unmedicated curve,
@@ -28,18 +29,20 @@ allowing for higher probability of success with less effort.]({{
 Now, the low probability of any project being completed successfully at low
 effort-levels is not practical or acceptable for daily life. The answer, at
 least for me, lay in using process, tools, externalisation and similar 'brain
-hacks' to remove the low-probability-part by force:
+hacks' to remove the low-probability-part by force. This is to say, the
+processes make sure that a certain level of effort is invested in *everything*,
+so that the bottom for successrate is at least acceptable:
 
 ![The same graph, but with the first, low-effort-invested part greyed out, as
 the habits and processes taught by ADHD enforce a certain success rate by always
 investing a base minimum of effort.]({{
 "/assets/adhd-curve/curve_with_habits.png" | relative_url }})
 
-This removes a large part of the benefits of medication, while leaving all of
-their problems intact. The processes, strategies, habits have to be re-thought
-and re-engineered, from ground up, as the assumptions and context for which they
-were designed no longer holds water. A *lot* of energy is wasted by
-overprocessing.
+Not only is this a very tiring way to go through life, it also removes a large
+part of the benefits of medication, while leaving all of their problems intact.
+The processes, strategies, habits have to be re-thought and re-engineered, from
+ground up, as the assumptions and context for which they were designed no longer
+holds water. A *lot* of energy is wasted by overprocessing.
 
 This is, to put it mildly, daunting. These are the processes that have kept me
 alive for decades, allowing me to function and to thrive as much as I did. I
