@@ -25,37 +25,98 @@ developed with the urgency and importance of saving lives for saving our own.
 
 Of course, if we consider society the system under scrutiny, we are not going to
 get far, society at large is far outside of our influence. Instead, let us draw
-a smaller boundary: One person's life. In doing so, we can start applying from
-the toolbox, first up, the identification of hazards.
+a smaller boundary: One person's life, your own. There is considerable discourse over
+whether or not one person's life is considered "controllable", but, in the
+interest of time, let us settle for "you have some degree of influence over your
+own life".
 
-A *Hazard* is anything that, under a certain event, produces an accident, a
+## Hazards
+
+Now, we can start applying from the toolbox. First up, the identification of
+hazards.
+
+A *hazard* is anything that, under a certain event, produces an accident, a
 loss, something going wrong that you'd really rather didn't. Some of these are
-always present but not helpful (being outside comes with the small-but-present
-risk of being mauled by a bear). There are a lot of hazards, but only some of
-them are useful to consider in this light.
+always present but not helpful to include in a list intended to mitigate them.
+(being outside comes with the small-but-present risk of being mauled by a bear)
+
+The things that fall into this in our context are what are typically considered
+*symptoms*, things like:
+
+- Poor sleep or insomnia,
+- Insufficient/bad/excessive eating,
+- Substance-based coping (drinking, smoking, weed, etc)
+
+It should be pointed out that all these are not harmful for themselves. They may
+be not fun to go through, not exactly wonderful to experience, but only in the
+most extreme forms do they do acute harm by themselves. Substance-based coping
+*still achieves its main goal*, coping with the broader context in life.
+
+However, all of them open up the possibility of things going more wrong than if
+they were not present. Lack of sleep produces lapses in attention and cognitive
+capacity that can be mostly fine, but deadly when combined with driving a car.
+Smoking is a fine coping mechanism for stress until your lung capacity matters,
+or you develop cancer from continued exposure.
+
+This increased potential for things going wrong is why we want to keep an eye
+out for them: If we can avoid these being present in our life, less things have
+a possibility of causing an unacceptable loss, and so less things will go
+acutely wrong. (or, in the parlance these principles are nicked from, cause an
+accident)
 
 ## Incident Analyses
 
 This is where the second part comes in, the *incident analyses*. That means,
 you'll almost certainly remember situations, encounters, missed opportunities
-that you wish had gone different. From these situations you can then learn about
-your behaviour, and not in the hypothetical "this is what I think I'd do" set of
-behavioural trait an idealised you exhibits, but in the "this actually happened"
-set of behaviours of the tired, cranky and ill you that has to deal with life on
-a daily basis.
+that you wish had gone different. Fights you've had where you felt like an idiot
+the entire way through because you were fighting tooth and nail for something
+you didn't care about much in the first place. Health problems that arose from
+coping mechanisms having harmful side effects. From these situations you can
+then learn about your behaviour, how you react, what you do, how you see the
+world, and how you prioritise.
+
+What makes this different, and worthwhile, is that the information you find in
+these about your own behaviour is not in the hypothetical "this is what I think
+I'd do" set of behavioural trait an idealised you exhibits, but in the "this
+actually happened" set of behaviours of the tired, cranky and ill you that has
+to deal with life on a daily basis. This is the person that others are talking
+to, and the person that forms your broader context.
+
+### An Aside About Managing Your Own Psychology
 
 It should be noted here, that since we are so far looking exclusively at things
-that have gone wrong here, the picture painted of yourself will be focused
-towards the less-great parts of you and your behaviour. This is not the whole
-truth! You can apply the same techniques to things you think went well, things
-that left you feeling warm and fuzzy on the inside. The result will be the same,
-but with encouragement of the environmental circumstances rather than management
-or avoidance.
+that have gone wrong here, and we see "things that actually happened" as a more
+real version of how you prioritise, act, and decide in the moment than what you
+tell yourself in the moment, this can and will clash sharply with your own
+self-conception, of how you act. This can, and will, be painful. It's of
+absolutely utmost importance that you do not beat yourself up about this, as
+much as you can manage not to. Blame, judgement, and disciplinary 'punishment'
+is absolutely antithetical to the entire process, and will make most of the
+benefits of it vanish into a puff of misery, but more on this in a bit.
+
+While this is an immensely useful toolbox, its usual focus on the negative takes
+a large psychological toll and therefore has a sort of "you must be this well to
+participate" barrier to entry.
+
+You can and absolutely should apply the same techniques to things you think went
+well, things that left you feeling warm and fuzzy on the inside. The result will
+be the same, but with encouragement of the environmental circumstances rather
+than management or avoidance.
+
+The general guideline is, when something went very differently than you planned,
+foresaw, or thought it would go, it makes for a great context to put into this
+process. I would advise that if you are currently battling intense depression or
+similarly intense illness to focus on the things that went better than expected.
+There is just as much to learn there, about how you act and decide and
+prioritise, and it won't make you feel worse about yourself, you've got plenty
+of that to go around already.
+
+## A Worked Example: A Fight With A Friend.
 
 Consider now what happened in this specific interaction. Things did not go as
 you planned: "I erupted at my friend and now they're hurt and I feel terrible".
 
-There is the obivous first layer here: I erupted at my friend, that is bad and I
+There is the obvious first layer here: I erupted at my friend, that is bad and I
 should never do this. In order to achieve this, you begin to view anger as
 suspicious, frustration as suspicious, and tamp down on any displayed negative
 emotions. This attempted fix for the situation has now made your life *worse*,
@@ -71,7 +132,9 @@ this to happen:
 
 It took all three of these factors to produce the situation, any combination of
 two out of three would not have been sufficient, and would not have resulted in
-the incident. Congratulations, you've identified hazards!
+the problem. Two of those involve things that your friend had nothing to do
+with, but were nonetheless necessary for this to happen: Congratulations, you've
+identified hazards!
 
 You now have mitigation strategies for preventing situations like this from
 happening again:
@@ -131,7 +194,7 @@ and papers have been written about this, but to be usefully reductive about it,
 it came down to a few factors: The sensor they were acting on did not indicate
 what the operators thought it indicated (it merely indicated if the valve had
 been supplied power, not that it actually had closed), the situation they found
-themselves in was never covered in training procedues (but also looked a **lot**
+themselves in was never covered in training procedures (but also looked a **lot**
 like something they had been trained to *never* let happen), and the feedback
 the system was giving them was, to them, contradictory. Their actions, of trying
 to diagnose the problem, and their confusion over *whether there even was a
@@ -159,10 +222,10 @@ immensely powerful and absolutely unhelpful.
 
 The core helpfulness comes from shifting attention and consideration from when
 we can afford to spare it (times of quiet and rest with little demand on our
-facilties) to those when we can't (When we have problems to solve, like when we
+facilities) to those when we can't (When we have problems to solve, like when we
 are late, or need to think through a problem, or are talking to people).
 
-One of the simplest ways in which you can design your envionment to shift
+One of the simplest ways in which you can design your environment to shift
 attention and consideration is locality: If you are prone to forgetting your
 lunch, putting it next to the door to grab easily when you are rushing out of
 the door makes you less prone to forgetting your lunch.
@@ -202,7 +265,7 @@ where this is going.
     less" actions, they are roughly equatable.
 - Even without depression, the same factors are still present. We want to spend
   less time on things like this. We want to spend more time doing the things we
-  enjoy. We want to be gnerally happier.
+  enjoy. We want to be generally happier.
 
 ### Draft
 
@@ -222,6 +285,7 @@ I do actually recommend this process widely, by applying it to just 1-2 things
 that have happened recently, you may be able to gain insight into things you
 were not aware of previously.
 
+---
 
 [^1]: This is a fantastic book, and it's even accessible for free under [the
     Open Access programme][easw-pdf] from MIT Press. Read it, particularly Part
