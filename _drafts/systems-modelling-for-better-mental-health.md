@@ -32,37 +32,37 @@ own life".
 
 ## Hazards
 
-Now, we can start applying from the toolbox. First up, the identification of
-hazards.
+Now that we have a system under consideration, we can start applying from the
+toolbox. First up, the identification of hazards.
 
-A *hazard* is anything that, under a certain event, produces an accident, a
-loss, something going wrong that you'd really rather didn't. Some of these are
-always present but not helpful to include in a list intended to mitigate them.
-(being outside comes with the small-but-present risk of being mauled by a bear)
+A *hazard* is anything that, together with a certain set of other events,
+produces an accident, a loss, something going wrong that you'd really rather
+didn't. Some of these are always present but not helpful to include in a list
+intended to mitigate the effects of the ones we can control most.[^11]
 
-The things that fall into this in our context are what are typically considered
-*symptoms*, things like:
+The things that fall into this for our interest, are what are typically
+considered *symptoms* of something else, things like:
 
 - Poor sleep or insomnia,
 - Insufficient/bad/excessive eating,
-- Substance-based coping (drinking, smoking, weed, etc)
+- Substance-based coping, like alcohol, nicotine, weed, etc,[^12]
+- Chronic fatigue,
+- Ennui.
 
-It should be pointed out that all these are not harmful for themselves. They may
-be not fun to go through, not exactly wonderful to experience, but only in the
-most extreme forms do they do acute harm by themselves. Substance-based coping
-*still achieves its main goal*, coping with the broader context in life.
-
-However, all of them open up the possibility of things going more wrong than if
-they were not present. Lack of sleep produces lapses in attention and cognitive
-capacity that can be mostly fine, but deadly when combined with driving a car.
-Smoking is a fine coping mechanism for stress until your lung capacity matters,
-or you develop cancer from continued exposure.
+It should be pointed out that all these are not harmful or direct problems for
+themselves. They tend to be harbingers, signs of other things. They may be not
+fun to go through, not exactly wonderful to experience, but only in the most
+extreme forms do they do acute harm by themselves. However, all of them open up
+the possibility of things going more wrong than if they were not present. Lack
+of sleep produces lapses in attention and cognitive capacity that can be mostly
+fine, but deadly when combined with driving a car. Chronic fatigue is survivable
+but degrades the joy you find in life, making other things most likely to land
+worse, or cause spiralling.
 
 This increased potential for things going wrong is why we want to keep an eye
 out for them: If we can avoid these being present in our life, less things have
 a possibility of causing an unacceptable loss, and so less things will go
-acutely wrong. (or, in the parlance these principles are nicked from, cause an
-accident)
+acutely wrong.
 
 ## Incident Analyses
 
@@ -81,6 +81,12 @@ I'd do" set of behavioural trait an idealised you exhibits, but in the "this
 actually happened" set of behaviours of the tired, cranky and ill you that has
 to deal with life on a daily basis. This is the person that others are talking
 to, and the person that forms your broader context.
+
+I find that some distance to this person actually helps, here. It's about having
+empathy with someone, knowing only their external behaviours. We may be able to
+see into our own head, but we can't do the same for a depressed friend. If we
+want to account for how others react to us, we can't take our thoughts, intents
+and wishes into account.
 
 ### An Aside About Managing Your Own Psychology
 
@@ -120,7 +126,10 @@ There is the obvious first layer here: I erupted at my friend, that is bad and I
 should never do this. In order to achieve this, you begin to view anger as
 suspicious, frustration as suspicious, and tamp down on any displayed negative
 emotions. This attempted fix for the situation has now made your life *worse*,
-as you suppress your own emotions.
+as you suppress your own emotions, in an attempt to correct for some emotions
+sometimes being the problem. You view *yourself* as the problem, you blame
+yourself, and you want to come up with elaborate mechanisms and tools to prevent
+this from ever happening again.
 
 Instead, I would encourage you to look at what needed to be present in order for
 this to happen:
@@ -180,7 +189,7 @@ An early, wonderful line in _Engineering A Safer World_ (p. 39) is this:
 This has a few implications, but the big three are:
 
 1. The environment around you shapes your actions to the degree that any active
-   mistake made is mitigatable by your environment, and
+   mistake made is mitigatable by changing your environment, and
 2. Your actions are *well-reasoned* in your context and view on the world, and
    therefore
 3. That your decisions *are not to blame*.
@@ -205,13 +214,23 @@ to diagnose the problem, and their confusion over *whether there even was a
 problem to begin with* is perfectly understandable from their contexts as the
 event was unfolding.
 
-That, in hindsight, we can see how other indicators could, in theory, have
-prevented any damage from being incurred whatsoever, is a meaningless
-counterfactual whose main use it is to dictate how people *should have
-behaved*/admonish/blame. For their context, their information, situation and
-knowledge, they behaved as rationally as they could. To go on and on about
-things that *did not happen* (counter-factuals) is meaningless, and worse,
-harmful.
+To say that, in theory, there were other indicators of the situation that could
+have led them to successfully avoid any problem whatsoever is a meaningless
+counterfactual. You already know the outcome. You already know that
+their actions resulted in this. When you know the outcome, you are subject to
+Hindsight Bias, and you will criticise their actions far more intensely than you
+ever would if you knew the outcome was positive.
+
+To focus on their "faulty" actions, to cry "why didn't they just..." is to blame
+the people involved, the people that acted to the best of their information,
+skill and resources, is to want to remove the pain and horror you are feeling at
+the accident having taken place, and to instead place it on the operators that
+"did it wrong".
+
+For the context of the operators, their information, situation and knowledge,
+they behaved as rationally as they could. They did everything they could to make
+sure nothing bad would happen. To go on and on about things that *did
+not happen* is meaningless, and worse, harmful.
 
 Blame, in general, only makes things worse. It's an understandable human
 instinct: Blame exists to discharge pain, discomfort, guilt. There's a single
@@ -222,14 +241,21 @@ But doing so does nothing to actually address the problem. If someone else is to
 blame, and we definitely are not, then our actions haven't contributed to the
 problem, and therefore there is no need to change our actions, our environment.
 Blame *reduces* our chances to learn from what happened. This is how you end up
-with some sytems produces monthly occurrences of "unpreventable and tragic
+with some systems produces monthly occurrences of "unpreventable and tragic
 instances of human error". Nothing about it was unpreventable, but to recognise
 would mean to do away with the guilt-and-pain-discharging application of blame.
 
-So, let's talk about the thing we *can* actually do: Shape our environment to
-prevent, mitigate, or lessen hazards that we encounter. Because if
-"unpreventable and tragic human error" happens repeatedly, the environment is
-the thing in common between those.
+At the beginning of every investigation into an accident stands the decision of
+whether we want to do what we can to reduce the chances of further accidents
+happening, or if we want to find 'the guilty party' to discipline and 'hold
+accountable'. One of those reduces the amount of harm inflicted on people, I
+suggest that one.
+
+So, having made that decision, let's talk about the thing we *can* actually do:
+Trying to gather as much data to understand _how_ the accident came to be, and
+then shaping our environment to prevent, mitigate, or lessen hazards that we
+encounter. Because if "unpreventable and tragic human error" happens repeatedly,
+the environment is the thing in common between those.
 
 ## Environment Design
 
@@ -269,7 +295,7 @@ But environment design needs to be done carefully. We don't fully control our
 environment, but we can influence it. One particular failure mode I've run into
 with this model is, well, if I can setup my environment to avoid this, this
 means that not doing so is my mistake yet again and I've fucked it up, *again*.
-This is not helpful, and will just make you feel worse. The enviroment is not
+This is not helpful, and will just make you feel worse. The environment is not
 totally under your control. But you can influence it, carefully.r
 
 ## The Cycle Of Error
@@ -304,18 +330,6 @@ this paragraph.
 
 ## Economic pressures and depression
 
-### TODO Notes
-
-- Instead of economic pressures pulling us away from safety it's depression and
-  lack of energy
-  - Given that both, economic pressures and depression result in "do more with
-    less" actions, they are roughly equatable.
-- Even without depression, the same factors are still present. We want to spend
-  less time on things like this. We want to spend more time doing the things we
-  enjoy. We want to be generally happier.
-
-### Draft
-
 One of the many reasons as to why the world is so hard to deal with – I would
 argue one of the central ones – is that complex systems are dynamic. They adapt
 to the pressures they face. In abstract, big systems that are studied like this,
@@ -340,22 +354,81 @@ add to the system and don't have a means of defending with tooth and nail will
 instantly be eaten up by this demand. After all, the factory owner asks himself,
 why make less money?
 
-TODO
+All of these pressures persist when we apply this lens to a person's life
+instead, trading some factors for others. Even if you do not suffer from mental
+illness, you are still subject to these pressures. You still want to be happier,
+healthier, wealthier. Some of them are worth calling out here, because of the
+mechanism that underlies Stretched Systems.
+
+Mental illnesses have a habit of being, well, not good for you. We'd like them
+to not existing in our head. They are additional drains on your resources, they
+make your system more expensive to run, or slower, or more unsafe, and honestly,
+most do all three.
+
+It may sound trivial to say, but if you are aware of having one of those
+unwanted guests, _you have to account for them_. Planning as if they would not
+be a thing will end up getting you in ways that make everything even worse,
+afterwards.
+
+
+## The Importance Of The "Measuring Channel"
+
+The "Measuring Channel" is a bit of an abstract term that describes the flow of
+data from the front lines, the sharp end, to the decision-makers and planners,
+the blunt end. It's how you figure out that you are close to the boundaries that
+you can operate in. All your decision-making lives and dies by the information
+you get from this channel, you are blind to what's happening otherwise.
+
+This also transfers. We have some measuring channel, we notice hunger and decide
+to eat, we notice anger and vent it somewhere (ideally) safe, we notice desire
+for something and buy it. Everyone has an information flow from the sharp end
+(your body, emotions, active-doing-of-stuff practical self) to the blunt end
+(the planning, project-managing logical self).
+
+Sadly, mental illness has a habit of messing with this. We forget to eat, we
+don't recognise our emotions and then do things we regret. The quality of our
+measuring channel has degraded to the point where we can't make good decisions,
+because the data we have does not reflect reality. For the data we have,
+drinking a bottle of vodka is a rational choice, cf local rationality from above.
+
+But, you can improve that! And it's a smart investment, with high returns for
+the effort expended. Even when you don't have mental illness interfering, it's a
+good idea to put effort into improving your measuring channel, and learn about
+yourself and your inner state.
+
+Write things down. Words don't (or rarely) change when you're looking away. Your
+mental context may change, but the words you wrote in this context won't. This
+helps you figure out the *how*, how you interact and influence your life. Being
+able to refer to things you wrote down at the time of something unpleasant
+happening is a sight into your brain at the time, something you usually don't
+get. Take advantage of it, write things down.
+
+"Getting in touch with yourself" is a (thankfully) popular thing to do, from
+journaling to meditation to IFS. Personally, for me, journaling and meditation
+work, but everyone is different here. Try out tools, see what helps you the
+most.
+
 
 ## Why Would I Do This, A Coda
 
 I'm aware this is an unusual angle to take for debugging your own life. I'm
-aware it's mechanistic, oddly robotic, and detached. That is in fact, why I
-recommend this to anyone seeking better understanding of their life:
+aware it's oddly robotic, dehumanising and detached. It sees people, or
+yourself, as a system that does what it does, not as a person. That is in fact,
+why I recommend this to anyone suspecting their brain working similar to mine,
+or finding some kind of resonance in these words and processes.
 
-- The process being mechanistic and checklist-able means that I was able to
-  follow it even at my most depressed,
-- The detachment allowed me to avoid my own biases towards myself, I was able to
-  just treat myself as another person, a difficult task at times.
+The detachment allowed me to avoid my own biases towards myself, I was able to
+just treat myself as another person, a difficult task at times. The focus on
+environmental factors helped me get out of the cycle of blaming myself, of
+making myself feel worse when I already was unwell. We are but a part in the
+system, and as such, we are subject to its influences. To deny our influences is
+to deny our humanity, to disconnect us from other people. In consequence,
+treating our actions as free from such influences is illogical and imports a lot
+of pain you don't need to suffer.
 
 I do actually recommend this process widely, by applying it to just 1-2 things
 that have happened recently, you may be able to gain insight into things you
-were not aware of previously.
+were not aware of previously. I hope it helps someone else as much as it did me.
 
 ---
 
@@ -403,11 +476,20 @@ were not aware of previously.
     my pain, and hurting them did nothing to lessen my pain. Learning how to
     defuse that made my life better.
 
+[^11]: Being outside comes with the small-but-present risk of being mauled by a
+    bear, that doesn't mean that you shouldn't go outside, but it *also* doesn't
+    mean that you should ignore the possibility of Surprise Bear.
+
+[^12]: The frequently-ignored point about substance-based coping is that it
+    *still (for the most part) achieves its main goal*, coping with the broader
+    context in life. Coping is not a dirty word, it's how you deal with life.
+    The these-days common derogatory use of "cope" and "copium" makes me sad, we
+    all need to deal with the world in some form. Some of the coping is
+    healthier than other forms of it, but all of it serves the purpose of
+    dealing with the world. I just also consider it necessary to be aware of
+    *how* you cope with the world, and to adjust it to avoid harm.
+
+
 [easw-pdf]: https://direct.mit.edu/books/book/2908/Engineering-a-Safer-WorldSystems-Thinking-Applied
 [three-mile-island-wiki]: https://en.wikipedia.org/wiki/Three_Mile_Island_accident
 [jkm-story]: https://jacobian.org/2022/feb/14/that-wild-aam-story/
-
-### Draft Notes
-
-- Remember, the purpose of a system is what it does, there is no inherent virtue
-  in what is happening now, and tinkering with it might only yield benefits.
