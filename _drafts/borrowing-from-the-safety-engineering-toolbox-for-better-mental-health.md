@@ -1,18 +1,18 @@
 ---
 layout: post
 author: Mordecai
-title: "Systems Modelling for better mental health"
+title: "Borrowing From The Safety Engineering Toolbox For Better Mental Health."
 date: Sat, 30 Oct 2021 23:31:09 +0200
 categories: post
 ---
 
 I recently read _Engineering A Safer World_[^1] by Nancy Leveson[^2], and while
 it is intended about how to make systems safe for the people running them, I
-can't help but notice that so many of the tools, structures, assumptions and
-structures given hold up for the personal life, too. The benefit of the theory
-of the really abstract (like systems theory is) is that you can apply it to a
-lot of things. So, an application of systems theory to a personal life impeded
-by mental illness and life in These Days.[^9]
+can't help but notice that so many of the tools, assumptions and structures
+given hold up for the personal life, too. The benefit of the theory of the
+really abstract (like systems theory is) is that you can apply it to a lot of
+things. So, an application of systems theory to a personal life impeded by
+mental illness and life in These Days.[^9]
 
 ## The definition of Safety in the context of running your own life.
 
@@ -75,12 +75,13 @@ coping mechanisms having harmful side effects. From these situations you can
 then learn about your behaviour, how you react, what you do, how you see the
 world, and how you prioritise.
 
-What makes this different, and worthwhile, is that the information you find in
-these about your own behaviour is not in the hypothetical "this is what I think
-I'd do" set of behavioural trait an idealised you exhibits, but in the "this
-actually happened" set of behaviours of the tired, cranky and ill you that has
-to deal with life on a daily basis. This is the person that others are talking
-to, and the person that forms your broader context.
+The information and behaviours in these events is different (and therefore
+useful) from what you know and assume about yourself. This is not the
+hypothetical "this is what I think I'd do" set of behavioural trait an idealised
+you exhibits, but in the "this actually happened" set of behaviours of the
+tired, cranky and ill you that has to deal with life on a daily basis. This is
+the person that others are talking to, and the person that forms your broader
+context.
 
 I find that some distance to this person actually helps, here. It's about having
 empathy with someone, knowing only their external behaviours. We may be able to
@@ -190,8 +191,10 @@ This has a few implications, but the big three are:
 
 1. The environment around you shapes your actions to the degree that any active
    mistake made is mitigatable by changing your environment, and
-2. Your actions are *well-reasoned* in your context and view on the world, and
-   therefore
+2. Your actions are *well-reasoned* in your context and view on the world. This
+   is called **local rationality**, for the information, context, values,
+   priorities, conflicts that you have, your decisions represent what you
+   believe to be the best choice.
 3. That your decisions *are not to blame*.
 
 To unpack this, let's think about the environment the standard operator that
@@ -230,7 +233,9 @@ the accident having taken place, and to instead place it on the operators that
 For the context of the operators, their information, situation and knowledge,
 they behaved as rationally as they could. They did everything they could to make
 sure nothing bad would happen. To go on and on about things that *did
-not happen* is meaningless, and worse, harmful.
+not happen* is meaningless, and worse, harmful. The environment they existed in,
+*the design of the system* led them to reach the conclusions they did about the
+state of reality.
 
 Blame, in general, only makes things worse. It's an understandable human
 instinct: Blame exists to discharge pain, discomfort, guilt. There's a single
@@ -264,25 +269,39 @@ way, to which we then react. We can change the ways in which events and facts
 are presented to us, and therefore change our reaction.
 
 You can see how this very minimal definition of "environment design" is both,
-immensely powerful and absolutely unhelpful.
+immensely powerful and absolutely unhelpful. It is general enough to encompass
+all of human behaviour, and therefore gives you absolutely nothing you can apply.
 
-The core helpfulness comes from shifting the need for attention and planning
-from when we can afford to spare it (times of quiet and rest with little demand
-on our facilities) to those when we can't (When we have problems to solve, like
-when we are late, or need to think through a problem, or are talking to people).
+It becomes useful when we see how this allows the shifting of attention and
+planning from when we can afford to spare it (times of quiet and rest with
+little demand on our facilities) to those when we can't (When we have problems
+to solve, like when we are late, or need to think through a problem, or are
+talking to people). If we can change the structure of events and facts presented
+to us, we can change our behaviour without needing to worry about how we behave
+in the moment itself, our environment will lead us to reach different
+conclusions.
 
-The main principle here is the direction of *attention*, from the you that has
-the time and space to think through what we need in those situations where we
-face the pressures of getting something done. We can think about ourselves in
-the situations where our environment led to our attention being misdirected, and
-see if we can't change that to the better. What are the things we need to see in
-the moment? How do we select for only seeing what matters when we are *doing
-things*?
+The main principle here is the direction of your *attention* when we are in the
+process of doing things. We can think about ourselves in the situations where
+our environment led to our attention being misdirected or lead down dead ends.
+What are the things we need to see in the moment? How do we set up the
+environment for seeing the information that should guide our decisionmaking and
+*nothing else*?
 
 For example, one of the simplest ways in which you can design your environment
 to shift attention and consideration is locality: If you are prone to forgetting
 your lunch, putting it next to the door to grab easily when you are rushing out
-of the door makes you less prone to forgetting your lunch.
+of the door makes you less prone to forgetting your lunch. Your attention is
+being directed to the lunch at the time you most need it, before you leave your
+apartment.
+
+In these times, something else would be removing notifications from contexts and
+situations when they only distract, in others, it would be adding notifications
+for events. Getting an email when you haven't bought groceries in a week is
+good systems design: Your attention is being redirected to your fridge being
+almost empty, but ideally before it runs out. Setting up the sending of this
+email is something that we can then do when we have spare resources to help us
+when we don't.
 
 This is also where the analyses come in, what went wrong, where? These point to
 weaknesses in the environment setup, and these usually surprise is – our
@@ -291,12 +310,12 @@ That's both, perfectly okay, and completely expected. What we select for in calm
 and quiet is never the same as what we select for when in the context of doing
 things.
 
-But environment design needs to be done carefully. We don't fully control our
-environment, but we can influence it. One particular failure mode I've run into
-with this model is, well, if I can setup my environment to avoid this, this
-means that not doing so is my mistake yet again and I've fucked it up, *again*.
-This is not helpful, and will just make you feel worse. The environment is not
-totally under your control. But you can influence it, carefully.r
+We don't fully control our environment, but we can influence it. One particular
+failure mode I've run into with this model is, well, if I can setup my
+environment to avoid this, this means that not doing so is my mistake yet again
+and I've fucked it up, *again*. This is not helpful, and will just make you feel
+worse. The environment is not totally under your control. But you can influence
+it, carefully.
 
 ## The Cycle Of Error
 
@@ -333,8 +352,9 @@ this paragraph.
 One of the many reasons as to why the world is so hard to deal with – I would
 argue one of the central ones – is that complex systems are dynamic. They adapt
 to the pressures they face. In abstract, big systems that are studied like this,
-the pressures are economic: The system costs too much money, the system doesn't
-produce enough, the system hurts too many people.[^6]
+with formal incident reviews processes, people employed solely to evolve the
+systems design, the pressures are economic: The system costs too much money, the
+system doesn't produce enough, the system hurts too many people.[^6]
 
 And so the system adapts. The people contained within find ways of adapting to
 those pressures. They find ways to be safer, cheaper, faster. The system, first
@@ -389,12 +409,21 @@ Sadly, mental illness has a habit of messing with this. We forget to eat, we
 don't recognise our emotions and then do things we regret. The quality of our
 measuring channel has degraded to the point where we can't make good decisions,
 because the data we have does not reflect reality. For the data we have,
-drinking a bottle of vodka is a rational choice, cf local rationality from above.
+drinking a bottle of vodka is a rational choice. (c.f. local rationality from
+above!)
 
 But, you can improve that! And it's a smart investment, with high returns for
-the effort expended. Even when you don't have mental illness interfering, it's a
-good idea to put effort into improving your measuring channel, and learn about
-yourself and your inner state.
+the effort expended. It works well because it helps us when we most need it, and
+when we can least afford what is usually considered 'good advice'. Making a
+spreadsheet, meditating and working out are indeed things that would improve our
+state when we're at our worst. However, they are so far our of reach for being
+actionable and usable advice that they border on insulting. When we can't cook
+dinner for ourselves and sleep 3 hours per night, advice of "go to the gym"
+produces, at absolute best, a tired laugh. But exactly that is where environment
+design helps most, by helping us reach better outcomes without needing to expend
+resources when we can least afford it. This is applicable regardless of
+mental illness -- everyone has days where the prospect of Doing The Thing is of
+comparable effort to climbing a mountain.
 
 Write things down. Words don't (or rarely) change when you're looking away. Your
 mental context may change, but the words you wrote in this context won't. This
@@ -406,7 +435,9 @@ get. Take advantage of it, write things down.
 "Getting in touch with yourself" is a (thankfully) popular thing to do, from
 journaling to meditation to IFS. Personally, for me, journaling and meditation
 work, but everyone is different here. Try out tools, see what helps you the
-most.
+most. Just don't get stuck only looking at the tools. You're trying different
+tools to solve problems you face, the effect is more important than the
+tool.[^13]
 
 
 ## Why Would I Do This, A Coda
@@ -441,21 +472,9 @@ were not aware of previously. I hope it helps someone else as much as it did me.
     systems operation that most of the field does not seem to share. In that, my
     view on this may be limited.
 
-[^4]: Removing myself from consideration and instead considering it an abstract
-    person running someone's life (depersonalising it) helped me apply the
-    empathy I feel towards people in the abstract, but not necessarily always to
-    myself. The same might apply to you.
-
-[^5]: Of which one of the better books on accident modelling happens to be
-    *Engineering A Safer World*!
-
 [^6]: Well-read readers will recognise this as the boundaries in Rasmussen's
     Dynamic Safety model, which is usually the model of choice to demonstrate
     how systemic factors in dynamic systems combine to failures.
-
-[^7]: This is something that actually has reached mainstream awareness, in form
-    of the now-relatively-well-known term "Psychological Safety", or feeling
-    safe to voice your opinions and feedback.
 
 [^8]: While this requires an awareness of your emotions that you may not have to
     this degree, you can then also add the required hazard of "I was unaware I
@@ -489,6 +508,9 @@ were not aware of previously. I hope it helps someone else as much as it did me.
     dealing with the world. I just also consider it necessary to be aware of
     *how* you cope with the world, and to adjust it to avoid harm.
 
+[^13]: Looking specifically at the people here who read about Luhmann's
+    Zettelkasten and now have abandoned all original projects to focus solely on
+    taking notes.
 
 [easw-pdf]: https://direct.mit.edu/books/book/2908/Engineering-a-Safer-WorldSystems-Thinking-Applied
 [three-mile-island-wiki]: https://en.wikipedia.org/wiki/Three_Mile_Island_accident
