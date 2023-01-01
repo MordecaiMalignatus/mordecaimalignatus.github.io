@@ -24,7 +24,7 @@ All being said, I read 36 books this year. Most of these were rather academic
 non-fiction books, a few were (very good) fiction books, and some were neither
 of these things. I'll make some rough groupings.
 
-## Safety, Resilience and Systems Theory. (Also Programming)
+## Safety, Resilience and Systems Theory. (Also Programming) (13 Books)
 
 The list:
 - Woods, Cook, Dekker, Johannesen & Sarter -- Behind Human Error
@@ -48,7 +48,7 @@ Generally speaking, these come together into a more and more detailed picture
 more than they are individual works. This space greatly rewards reading broadly
 and piecing together the resultant insight.
 
-## "Stuff has affected the real world in unexpected ways"
+## "Stuff has affected the real world in unexpected ways" (6 Books)
 
 This category is extremely loose, but here's the list:
 - Easterling -- Extrastatecraft
@@ -63,7 +63,7 @@ examples that are exceedingly hard to make in abstract. I think the highlights
 here are *Extrastatecraft*, *Seeing Like A State* and *Icebergs, Zombies, and the
 Ultra-Thin*.
 
-## Introspection, Philosophy and "Productivity"
+## Introspection, Philosophy and "Productivity" (12 Books)
 
 The List:
 - Elliott -- Existential Kink
