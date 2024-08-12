@@ -1,0 +1,32 @@
+* Overview
+
+Brief document about "stuff I want to write about", we'll see how far I get.
+
+* Cognitive Systems Engineering
+- Distinction between prostheses and tools, embodiment vs hermeneutic, opaque vs
+  transparent.
+- Bootstrapping process between data and categorisation system, no data without
+  categories and measurements.
+
+* Mental Health
+** Defaults and their value for cognitive load reduction.
+- Having sensible defaults for yourself makes many mandatory decisions optional
+- This greatly reduces cognitive load on yourself, especially when free
+  resources for these decisions are terribly scarce.
+- This does not constrain you in any way, you can still reject the default at
+  any time, the primary usecase is "Man, I want to X" and then you need to
+  determine what X is to be.
+- This also pushes against defaults others want to push on you, like the default
+  reading being Twitter, or the default meal being the easiest.
+- Examples:
+  - Drink: Water
+  - Meal: Dal
+  - Default route for walks
+  - Default restaurant to eat out at
+  - Reading: The one book you keep on your desk
+  - Planning: Pen and paper close by
+  - Exercise: Biking/Lifting
+
+* Tech
+- Data-drivenness is nonsense, the data can be made to say anything. Agreeing on
+  standard measurements drives the influence and changes down to data capture.
