@@ -76,9 +76,9 @@ the cause of many subtle bugs I've seen, things that would not happen this way
 if written without an LLM. This is considerations like "there's an ETL-based
 loadspike at 3am so it there should be some sort of minimum duration for the
 alert so it doesn't trigger every night at precisely 3am for 5 minutes". This is
-something that LLMs account for in any consistent manner. They do *sometimes*,
-when they look at the data, but this again then means that there is no real
-intention or understanding of the patterns in the change.
+something that can't and don't LLMs account for in any consistent manner. They
+do *sometimes*, when they look at the data, but this again then means that there
+is no real intention or understanding of the patterns in the change.
 
 The "this was the output and it seemed alright" answer has also made the quality
 of submitted code drop, at least in my context. People do not want to fight the
