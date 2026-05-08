@@ -10,7 +10,7 @@ for, on the lower end, 40% of what I see on what I'd call "the papers" for
 people working in software in some capacity, sites like Lobste.rs, The Accursed
 Orange Website, various Bluesky/Mastodon ecosystems. It feels impossible to
 discern which parts of it are genuine excitement and discussion, and which are
-puff-pieces, what part of it is skepticism at extra-ordinairy claims and what is
+puff-pieces, what part of it is skepticism at extra-ordinary claims and what is
 unwillingness to engage with a subject and finding reasons to dismiss it.
 
 Well, I try to be a reasonable person, so as ~~mandates~~ strong encouragements
@@ -74,19 +74,19 @@ hook of some of the better discussions about implicit understandings in my
 coworkers I had. This non-understanding of nuance on the side of the LLM is also
 the cause of many subtle bugs I've seen, things that would not happen this way
 if written without an LLM. This is considerations like "there's an ETL-based
-loadspike at 3am so it there should be some sort of minimum duration for the
+load spike at 3am so it there should be some sort of minimum duration for the
 alert so it doesn't trigger every night at precisely 3am for 5 minutes". This is
-something that can't and don't LLMs account for in any consistent manner. They
-do *sometimes*, when they look at the data, but this again then means that there
-is no real intention or understanding of the patterns in the change.
+something that LLMs can't and don't account for in any consistent manner. They do
+*sometimes*, when they look at the data, but this again then means that there is
+no real intention or understanding of the patterns in the change.
 
 The "this was the output and it seemed alright" answer has also made the quality
 of submitted code drop, at least in my context. People do not want to fight the
-LLM to output code in a different style or that is more to local idioms and
-style, and so they accept what the machine spits out, so long as it works. In
-general, the thinner-spread the team in question is, the more it will drop
-relative quality, at least in my experience, as people prioritize getting things
-done over doing them well, because they need to not drown *now*.
+LLM to output code in a different style or that is more appropriate to local
+idioms and style, and so they accept what the machine spits out, so long as it
+works. In general, the thinner-spread the team in question is, the more it will
+drop relative quality, at least in my experience, as people prioritize getting
+things done over doing them well, because they need to not drown *now*.
 
 This also has a profound impact on new entrants to the industry, the people who
 are currently doing the most learning of things they haven't internalized yet.
@@ -207,9 +207,9 @@ useful parts of the output. However, this is where people are drawn to LLMs the
 most - for things they do not feel like learning, where they want a throwaway
 script or placeholder. Here, the subtle offness matters less, because all you
 really care about is the output. This is fine and good, and would not pose a
-problem if things that are intended to be throw-away have a habit of not staying
-that way, fairly regularly, and then things start off built on sand, getting
-worse from there.
+problem if things that are intended to be throw-away would not have a habit of
+not staying that way, fairly regularly, and then things start off built on sand,
+getting worse from there.
 
 In this, LLMs encourage not only the writing of code by means of an LLM, but
 also the reading of it. Especially when you do not have the developed skills to
@@ -224,7 +224,7 @@ people in new jobs in the current state of the tech industry will likely feel
 hesitant about.
 
 The main reason I am not concerned about this on an existential level is that
-LLMs are quickly becomming a commodity that will be priced on a narrow margin
+LLMs are quickly becoming a commodity that will be priced on a narrow margin
 over hardware costs. Open-weights models like DeepSeek V4 having enough
 usefulness while being able to be run by anyone with a bunch of GPUs and access
 to cheap electricity, so LLMs as a *thing* in programming will not magically
@@ -236,7 +236,7 @@ An issue I've sidestepped here is all of the ethical quandries LLMs have
 inherently. They're built on, essentially, colonialising the internet commons at
 large, and that is hard to ignore, even if I am on some level required to.
 Thanks to ubiquitous LLM access and promotion, things that used to be abstractly
-trustworthy (someone put in sufficent effort to write something) has now broken
+trustworthy (someone put in sufficient effort to write something) has now broken
 down entirely, and the open internet that is accessible via search engines is
 now essentially a landfill you have to look carefully at to extract valuable
 information from.
