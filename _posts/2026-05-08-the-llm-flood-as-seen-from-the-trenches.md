@@ -268,7 +268,7 @@ unevenly distributed.
     page, and forget what you know.” ― Michael Crichton
 
 [^3]: See the transcript of the (I think) original talk introducing the term:
-    https://www.noidea.dog/glue
+    [noidea.dog/glue](https://noidea.dog/glue)
 
 [^4]: At least in my context, this fun side project was latched onto by
     engineering executives, and then brandished about as "the first agentic
