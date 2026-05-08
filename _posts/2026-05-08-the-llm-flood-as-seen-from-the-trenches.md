@@ -101,6 +101,13 @@ error mean?" to the imperative "fix the cause of this error", and that shortcuts
 the learning process. Doubly so, if people start dropping the actual explanation
 step, and go to the resolution directly.
 
+The other impact I want to talk about is impact mitigation and resolution. When
+things are *down*, people want to get things up and running again ASAP. More
+than once have I seen people plug an error or a general description into an LLM
+interface and give it more and more credentials until the LLM spit out something
+that may or may not be related to the incident, and may or may not be a relevant
+factor to the incident.[^5]
+
 ## Impacts On The Work Itself.
 
 The "subtle bugs introduced by non-understanding of context" is an issue by
@@ -269,3 +276,13 @@ unevenly distributed.
     wanted to. So we've now started to do the long journey of turning a
     hacked-together, mostly vibe-coded application into a thing suitable for
     production, and it's not particularly great.
+
+[^5]: This has led to this quote that to this day is the clearest depiction of
+    panicked action from external pressures coupled with LLM-reliance I've seen:
+
+    > Uh, guys, I think I fixed it, but I don't know if I can describe what I did.
+
+    They did, in fact, not fix it. The incident was a misconfiguration of our VPN
+    (Tailscale) that led to networking breakdowns, the "fix" they did was to add
+    their laptop as a host to tailscale. They saw the connectivity restored, but
+    they did not resolve anything close to the problem.
