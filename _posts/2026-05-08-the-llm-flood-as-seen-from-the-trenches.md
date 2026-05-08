@@ -273,9 +273,10 @@ unevenly distributed.
 [^4]: At least in my context, this fun side project was latched onto by
     engineering executives, and then brandished about as "the first agentic
     teammate", meaning that we could not throw it out, no matter how badly we
-    wanted to. So we've now started to do the long journey of turning a
-    hacked-together, mostly vibe-coded application into a thing suitable for
-    production, and it's not particularly great.
+    wanted to, and this included the EM that originally wrote the prototype. So
+    we've now started to do the long journey of turning a hacked-together,
+    mostly vibe-coded application into a thing suitable for production, and it's
+    not particularly great.
 
 [^5]: This has led to this quote that to this day is the clearest depiction of
     panicked action from external pressures coupled with LLM-reliance I've seen:
