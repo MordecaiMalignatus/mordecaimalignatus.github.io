@@ -50,8 +50,7 @@ entities that looks like this:
 
 ```json
 {
-    // the text key contains the entirety of the original text file.
-    "text": "Delicious, Buttery Naan\n...",
+    "text": "Delicious, Buttery Naan\n // the text key contains the entirety of the original text file.",
     "cooking_recipe": true,
     "baking recipe": true
 }
