@@ -119,7 +119,7 @@ if so.
 
 ## The Storage Engine Underneath
 
-With this being a small columnar DB, the easy answer is to throw this to Adobe
+With this being a small columnar DB, the easy answer is to throw this to
 Parquet, and move on with life, and chances aren't bad that I might just do
 that.
 
