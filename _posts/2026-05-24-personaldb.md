@@ -51,6 +51,7 @@ entities that looks like this:
 
 ```json
 {
+    // the text key contains the entirety of the original text file.
     "text": "Delicious, Buttery Naan\n...",
     "cooking_recipe": true,
     "baking recipe": true
@@ -105,7 +106,8 @@ ID.
 
 `get` takes an entity ID, and assembles the full entity JSON object from there.
 It returns a JSON object, with all non-null columns. Column order is disregarded
-entirely.
+entirely. There is also an option to pretty-print the keys, and to transform the
+raw JSON blob into readable text that doesn't have escaped whitespacing and newlines.
 
 `write` takes a entity ID and a JSON object, and replaces what the entity with
 the given entity ID with the object.[^4] If it contains a new column, a new
