@@ -81,9 +81,10 @@ probably will write a few libraries just for that.
 
 Inconsistency (what if something is tagged as a M:TG decklist but also as a
 cooking recipe and it now has two 'types'?) does not really matter, because
-there are no automated consumers of the DB. There's just me, and I'll see it
-unexpectedly, and fix it. This gets a bit more dicey with automated processing
-via scripts, but honestly, that doesn't really matter all that much to me.
+there are no by default no not-me consumers of the DB. There's just me, and I'll
+see it unexpectedly, and fix it. This gets a bit more dicey with automated
+processing via scripts, but honestly, that doesn't really matter all that much
+to me.
 
 ## The Sketch Of A User Interface
 
@@ -142,9 +143,9 @@ Where then each file contains a sparse 'list' of column values:
 }
 ```
 
-This makes the management and search of this outside of specialized tooling,
-whereas Parquet would just be a pile of binary blobs that I can't do anything
-with outside of the tooling.
+This makes the management and search of this outside of specialized tooling
+possible, whereas Parquet would just be a pile of binary blobs that I can't do
+anything with outside of the tooling.
 
 ## A Note On Maintenance
 
