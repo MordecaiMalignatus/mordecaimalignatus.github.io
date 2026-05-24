@@ -13,7 +13,7 @@ exactly it should be, hence this article.
 
 In essence, the origin of the problem is that "a file" is not really a useful
 taxonomy for personal writing. You can make it so, by using it as a vague tree,
-but you will inevitably run into the ruin of all rigid categorisations, the edge
+but you will inevitably run into the ruin of all rigid categorizations, the edge
 cases that are two kinds of something. For an illustrative example, I have two
 files, `cooking.org`, which houses my cooking recipes, and `baking.org`, which
 houses my baking recipes. Smashed cucumber salad? Clearly cooking. Cake? Clearly
@@ -30,7 +30,7 @@ solvable with `org-mode`, which supports tagging. But then I'm forced into
 re-doing all the files and the structure, and eh... Tagging systems outside of
 things like `org-mode` are just kind of... bad. They're usually just kind of
 barely functioning, really old, or bring way more machinery to the table than I
-want to for purposes of organising some text files.
+want to for purposes of organizing some text files.
 
 As I was thinking about this, I remembered columnar databases, and how they made
 additional columns almost free, as well as entity component systems (ECS) that
@@ -44,7 +44,7 @@ The core idea is abstracting over "a text file". There is an entity, or a row.
 This, for all intents and purposes, is invisible to the user and also
 irrelevant. A row can have any number of columns, which are key/value pairs, but
 the default value is `null`. This makes any row, if we squint a bit, a sparse
-JSON object, trimmable for `null` values.
+JSON object, when trimmed for `null` values.
 
 Suppose now that we take all of our recipes of some variety, and turn them into
 rows that looks like this:
@@ -60,19 +60,19 @@ rows that looks like this:
 Given a big list of all rows, finding recipes is now very easy. Attaching
 metadata is now very easy. I could include a column of `contains_gluten` at no
 cost and filter against it when reviewing recipes for what to make if I have a
-guest with caeliac disease.
+guest with celiac disease.
 
 So far, so "why not just include these in the file and use `grep`?". To me, the
 'big trick' of this is this: **This same DB could house all my documents, all my
 text files, all ad-hoc structured entities I come up with for various reasons,
 with no loss of functionality, and the same underlying model, and the same
-tools.** Blogposts in this blog could be rows in the same DB, with the recipe
+tools.** Blog posts in this blog could be rows in the same DB, with the recipe
 column values set to `null` and a `blog_post` column being set to `true`, and it
 would not impact anything at all, but now I no longer really have to deal with
 the file system taxonomy for something that to me is fundamentally the same type
 of thing, a piece of personal or internal writing[^3].
 
-Because this is also a very simple datastructure, it would also allow me to use
+Because this is also a very simple data structure, it would also allow me to use
 it for ad-hoc storage of personal tooling, having access to the same
 abstractions and the same data. Magic: The Gathering deck lists could be a
 row type, bibliography citations could be a row type. It also enables
@@ -134,8 +134,8 @@ Where then each file contains a sparse 'list' of column values:
 }
 ```
 
-This makes the management and search of this outside of specialised tooling,
-whereas Parquet would just be a pile of binary blobs that I can't do anythign
+This makes the management and search of this outside of specialized tooling,
+whereas Parquet would just be a pile of binary blobs that I can't do anything
 with outside of the tooling.
 
 ## A Note On Maintenance
@@ -155,11 +155,13 @@ like this, it seems fun and rewarding for just me.
 ---
 [^1]: Or OmniDB, as I've been kicking it around in my head, but it sounds
     too grandiose for what it is, honestly.
-[^2]: Obviously, this is barely a real issue. It's however the little papercut
+
+[^2]: Obviously, this is barely a real issue. It's however the little paper cut
     that made me think about this topic, and then I clearly thought a little too
     much about it, and here we are.
-[^3]: See [this
-    post](https://rambling.malignat.us/2022-07-22/on-internal-writing) for what
+
+[^3]: See [this post](https://rambling.malignat.us/2022-07-22/on-internal-writing) for what
     I call 'internal writing'.
+
 [^4]: Chances are I will instead create a new entity and shift the row ID, for
     "undo" support, given that writes are destructive.
