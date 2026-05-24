@@ -40,9 +40,8 @@ never fly in many-humans infrastructure.
 
 ## The Idea Behind PersonalDB
 
-The core idea is abstracting over "a text file". There is an entity, or a row.
-This, for all intents and purposes, is invisible to the user and also
-irrelevant. An entity can have any number of columns, which are key/value pairs,
+The core idea is abstracting over "a text file". There is an entity, or a row,
+with an ID. An entity can have any number of columns, which are key/value pairs,
 but the default value is `null`. This makes any entity, if we squint a bit, a
 sparse JSON object, when trimmed for `null` values.
 
