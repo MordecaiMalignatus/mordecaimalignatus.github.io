@@ -1,3 +1,4 @@
+
 ---
 layout: post
 author: Mordecai
@@ -5,34 +6,41 @@ title: "Infrastructure Languages and Kubernetes"
 categories: post
 ---
 
-In the fantastic *Sorting Things Out*, Bowker & Star[^1] talk about information
-infrastructure, in the case of the first part of the book, the ICD-10. The main
+In the beginning of the fantastic *Sorting Things Out*, Bowker & Star[^1] talk
+about information infrastructure in the context of the ICD-10[^12]. The main
 point of the ICD, they argue, is to create a common reference and classification
-of disease, a recognised taxonomy and nomenclature that can be used to
-communicate and think about diseases in a standardised and consistent way. A
-reference to the ICD code of pneumonia will describe pneumonia wherever the ICD
-is used. Therefore, a doctor trying to communicate that a patient is definitely
-suffering from pneumonia will use the ICD code to describe what's going on, and
-this, in turn, makes other doctors more likely to use ICD codes as well. The
-entire point of the book is that this is not a neutral act. In assigning names
-and taxonomy, various cans of complex, socio-technical issues are
-opened. The classifications we use shape our actions and thoughts.[^2]
+of disease, defined as a recognised taxonomy and nomenclature that can be used
+to communicate and think about diseases in a standardised and consistent way. A
+reference to the ICD code of (for example) pneumonia will describe pneumonia in
+a consistent manner wherever the ICD is used. Therefore, a doctor trying to
+communicate that a patient is definitely suffering from pneumonia will use the
+ICD code to describe what's going on in written documents as shorthand for the
+symptom profile of pneunomia. The entire point of the book and the case studies
+examined within is that this is not a neutral act, and the creation, use, and
+dissemination of names and taxonomy opens various cans of complex,
+socio-technical issues. The unavoidable conclusion is that the classifications
+we use shape our actions and thoughts.[^2]
 
-Concretely, the language constructed from such infrastructure is oriented around
-handling the objects of the domain, and hopefully also solving the problems of
-and in the domain. The ICD is designed as a classification rather than a
-nomenclature,[^3] where related diseases are grouped closely together. A doctor
-trying to figure out _which_ respiratory disease is afflicting their patient
-only needs to look through a narrow sub-tree of the ICD.
+Concretely, the language constructed from such information infrastructure is
+oriented around handling the objects of the domain, while (hopefully) also
+solving the problems of and in the domain. The ICD is designed as a
+classification rather than a nomenclature, where related diseases are grouped
+closely together. Bowker & Star distinguish classifications from nomenclatures
+in that nomenclatures make no claim to anything other than providing common
+names for things, whereas classifications take causation and relatedness on
+board: A disease with numerical code J18.9 (pneumonia) is related in some way to
+numerically close codes. In this case, J09-J18 refer to influenza and pneumonia
+diseases, J00-J99 as a whole refer to respiratory diseases. A doctor trying to
+figure out _which_ respiratory disease is afflicting their patient only needs to
+look through a narrow sub-tree of the ICD.
 
 The problems start arriving once you look at the sacrifices required to make a
-classification _useful_ in practice: Statistically
-irrelevant diseases have to be omitted,[^4] and similar-but-distinct rare diseases
-are grouped. If this is not done, the ICD becomes too "heavy" to use and
-communicate with. Information is always necessarily dropped to make a map of the
-land.[^5]
+classification _useful_ in practice: Statistically irrelevant diseases have to
+be omitted,[^4] and similar-but-distinct rare diseases are grouped. If this is
+not done, the ICD becomes too "heavy" to use and communicate with. Some information
+must always necessarily be dropped to make a map of the land.[^5]
 
-Now, information infrastructure is everywhere, we use such infrastructure daily
+Now that information infrastructure is everywhere, we use such infrastructure daily
 and at every turn. A consistent theme in Susan Leigh Star's work on
 infrastructure is that it tends to vanish from sight: We use it, but we're not
 aware of the effort that goes into constructing and maintaining such
@@ -49,7 +57,7 @@ abstraction is created. The ICD came about as a mortuary rate table, so the
 question was "how many distinct deaths can be attributed to this code?". Niche
 diseases with few statistical cases were dropped or grouped, whereas things like
 "respiratory illness", accounting for a great chunk of cases, were split up
-further. Of note is that relatively little of that is based on treatment
+further. Of noqte is that relatively little of that is based on treatment
 options, or severity, only on the statistics.
 
 Yet, despite its origins as a mortuary statistical device, it found adoption in
@@ -149,12 +157,7 @@ broader domain has become an infrastructure language unto itself.[^10]
     has no opinions over, say, what does and does not belong in kimchi.
     (Arguably, it has the opinion that it shouldn't contain botulism.)
 
-[^3]: Bowker & Star distinguish classifications from nomenclatures in that
-    nomenclatures make no claim to anything other than providing common names
-    for things, whereas classifications take causation and relatedness on board:
-    A disease with numerical code J18.9 (pneumonia) is related in some way to
-    numerically close codes. In this case, J09-J18 refer to influenza and
-    pneumonia diseases, J00-J99 as a whole refer to respiratory diseases.
+[^3]:
 
 [^4]: Except for the ones that would be a public health danger, a single case
     of, say, malaria is _very_ worth knowing about. Where to make these
@@ -184,3 +187,7 @@ broader domain has become an infrastructure language unto itself.[^10]
 [^11]: This notably does not mean that it becomes any less *influential*. For a
     treatise on the political influence of infrastructure, Keller Easterling's
     _Extrastatecraft_ is a fantastic read.
+
+[^12]: For anyone not familiar, the ICD, or *International Classification of
+    Diseases*, is, well, that. [Further reading
+    here.](https://en.wikipedia.org/wiki/International_Classification_of_Diseases)
