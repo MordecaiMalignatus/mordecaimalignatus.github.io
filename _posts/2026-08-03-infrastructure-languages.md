@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Mordecai
-title: "Infrastructure \"Languages\""
+title: "Infrastructure Languages and Kubernetes"
 categories: post
 ---
 
@@ -21,13 +21,13 @@ opened. The classifications we use shape our actions and thoughts.[^2]
 Concretely, the language constructed from such infrastructure is oriented around
 handling the objects of the domain, and hopefully also solving the problems of
 and in the domain. The ICD is designed as a classification rather than a
-nomenclature[^3], where related diseases are grouped closely together. A doctor
+nomenclature,[^3] where related diseases are grouped closely together. A doctor
 trying to figure out _which_ respiratory disease is afflicting their patient
 only needs to look through a narrow sub-tree of the ICD.
 
-The problems start arriving once you look at the necessary sacrifices that have
-to be made to make a classification _useful_ in practice: Statistically
-irrelevant diseases have to be omitted[^4], and similar-but-distinct rare diseases
+The problems start arriving once you look at the sacrifices required to make a
+classification _useful_ in practice: Statistically
+irrelevant diseases have to be omitted,[^4] and similar-but-distinct rare diseases
 are grouped. If this is not done, the ICD becomes too "heavy" to use and
 communicate with. Information is always necessarily dropped to make a map of the
 land.[^5]
@@ -43,7 +43,7 @@ and so on, yet they are still used every day to provide... more infrastructure
 to people who don't want to think about the effort it takes to provide them with
 a convenient way to order pants from the internet.
 
-The *perspective* from which the information infrastructure is created matters,
+The *perspective* from which the information infrastructure is built matters,
 because it informs what dimensions are first to the chopping block when an
 abstraction is created. The ICD came about as a mortuary rate table, so the
 question was "how many distinct deaths can be attributed to this code?". Niche
@@ -65,9 +65,9 @@ intended use case once, but it has since spread into other domains due to
 *usefulness*. It was designed to distribute containers of usually-stateless
 services over machines. However, it also worked just well enough for other
 things (like running databases, ETL pipelines, *et cetera*), so
-practitioners that were already using it for purposes of running stateless
+practitioners that were already using it for running stateless
 services over many computers started using it for those secondary targets, as it
-was easier to bodge the task into fitting into Kubernetes than it was to stand
+was easier to bodge the task into Kubernetes than it was to stand
 up an entire secondary piece of infrastructure that would allow you to run ETL
 pipelines in not-Kubernetes.
 
@@ -81,7 +81,7 @@ We're at a point where Kubernetes does most things a SaaS company needs well
 enough in some capacity. Given a hosted Kubernetes cluster, I could easily find
 a way to run all of the information infrastructure that company would need. It
 would be a bad-to-mediocre-to-fine choice for many of them, but I would not have
-to try very hard[^8]. With this, Kubernetes has become the topmost layer of
+to try very hard.[^8] With this, Kubernetes has become the topmost layer of
 infrastructure for a great deal of people, the thing they look at, the thing
 they interact with, the thing they need to debug when things break. Not AWS, not
 a VM, not a rack server, but `kubectl`.
@@ -98,7 +98,7 @@ instead also becomes a social choice. Running your infrastructure on Kubernetes
 first and foremost is now also about primarily choosing your hiring pool. What
 skills do you want engineers you hire to have? Do you think you'll get a better
 average candidate by choosing to run AWS-first or Kubernetes-first? What about
-hiring pool size, compensation, especially versus price of the infrastructure?
+hiring pool size, compensation, especially versus the cost of the infrastructure?
 
 This is why I think that "oh you don't need Kubernetes for this, it's overkill"
 or "you should not choose Kubernetes for running your 10-requests-per-day
@@ -174,7 +174,7 @@ broader domain has become an infrastructure language unto itself.[^10]
 [^8]: The [CNCF Landscape](https://landscape.cncf.io/) is an omnipresent,
     self-writing joke here.
 
-[^9]: See here the re-patriation to Datacenters for compute heavy loads from
+[^9]: See here the repatriation to data centres for compute heavy-loads from
     companies like Dropbox or Adobe, who purchased hardware again for some
     workloads as it was too expensive to run on AWS exclusively.
 
