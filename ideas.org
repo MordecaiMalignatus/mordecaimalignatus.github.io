@@ -8,6 +8,39 @@ Brief document about "stuff I want to write about", we'll see how far I get.
 - Bootstrapping process between data and categorisation system, no data without
   categories and measurements.
 
+* Systems In Broad
+** Community Of Practitioners
+Orphan paragraph cut from the Infrastructure Languages post.
+
+#+begin_quote
+Bowker & Star go on in _Sorting Things Out_ to explain that by forming a system
+around a shared set of definitions (in the case of the ICD 10, a taxonomy of
+codes and definitions related to diseases), and you gain adoption for such, you
+also have formed a community of practitioners. Inside this community, the
+information infrastructure underneath is the basis of multiple streams of
+influence:
+
+- The direct community of practitioners that use, share, modify and extend this
+  information infrastructure. In this case, this would be strictly any user of
+  the ICD. They have practical needs they use the ICD for, for example, in their
+  work as doctors needing to communicate diagnosis information.
+- The influence exerted by this piece of infrastructure and its community on
+  other pieces of infrastructure and their communities. The existence and
+  development of the ICD exerts influence on the DSM in both forms, the entity
+  that is the DSM in abstract, and also the community of practitioners
+  associated with it.
+- Secondarily, insurance providers would probably form the biggest
+  non-practitioner consumer part of the ICD, and they are very interested in how
+  well the ICD lines up with their particular concerns, and are aiming to
+  influence the development that way.
+- The original intent of the ICD was a *mortuary code table*, so the very
+  original use-case still exerts influence over the future development and
+  community as well: What are the effects of future developments over how well
+  the ICD works for classfying death, and how is that going to affect the
+  statistics going forward, especially with regards to comparisons with
+  historical data?
+#+end_quote
+
 * Mental Health
 ** Defaults and their value for cognitive load reduction.
 - Having sensible defaults for yourself makes many mandatory decisions optional
