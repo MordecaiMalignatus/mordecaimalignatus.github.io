@@ -46,9 +46,9 @@ it was added to the file, and a brief description of what's inside.
 This is complemented by a number of binders, with numbers on paper inserted into
 the sleeves with the document in question, looks like this:
 
-![./assets/binder-system.jpeg][A picture of a binder with several clear
+![A picture of a binder with several clear
 plastic sleeves housing documents, with a number on a piece of scrap paper
-inserted on the front.]
+inserted on the front.](/assets/binder-system.jpeg)
 
 
 The straight-forward case is retrieval: Open the text file, search for some
