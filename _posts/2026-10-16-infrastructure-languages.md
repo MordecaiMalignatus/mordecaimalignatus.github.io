@@ -1,10 +1,27 @@
-
 ---
 layout: post
 author: Mordecai
 title: "Infrastructure Languages and Kubernetes"
 categories: post
 ---
+
+A recurring point of annoyance I have is that people *love* to talk about
+Kubernetes in a derisive way, usually painting with a very broad brush, because
+they do not like the system and resent it. However, they also have to deal with
+it, due to that just being the deployment environment at work. The case against
+Kubernetes is usually around how overkill Kubernetes is, that you do not need a
+distributed, fault-tolerant cluster to serve a static HTML website, how it props
+on an entire layer of infrastructure and systems and leaky abstractions on
+something that was already capable of doing the same things as the VMs
+underneath. I think that these people aren't in any way really *wrong*, but are
+kind of missing the point as to why people choose Kubernetes for technical
+problems whose solutions in no way require anything as capable as Kubernetes.
+The points they are missing are (as they so often are) the social components in
+the socio-technical system that is building modern software. Let's talk about
+the reasons why you would choose an ill-fitting techncial solution to an
+ostensibly just-technical problem.
+
+## What are Infrastructure Languages?
 
 In the beginning of the fantastic *Sorting Things Out*, Bowker & Star[^1] talk
 about information infrastructure in the context of the ICD-10[^12]. The main
@@ -37,47 +54,48 @@ look through a narrow sub-tree of the ICD.
 The problems start arriving once you look at the sacrifices required to make a
 classification _useful_ in practice: Statistically irrelevant diseases have to
 be omitted,[^4] and similar-but-distinct rare diseases are grouped. If this is
-not done, the ICD becomes too "heavy" to use and communicate with. Some information
-must always necessarily be dropped to make a map of the land.[^5]
+not done, the ICD becomes too "heavy" to use and communicate with. Some
+information must always necessarily be dropped to make a map of the land.[^5]
+The *perspective* from which the information infrastructure is built matters,
+because it informs what dimensions are first to the chopping block when an
+abstraction is created.
 
-Now that information infrastructure is everywhere, we use such infrastructure daily
-and at every turn. A consistent theme in Susan Leigh Star's work on
-infrastructure is that it tends to vanish from sight: We use it, but we're not
-aware of the effort that goes into constructing and maintaining such
-infrastructure.[^11] Tech and software are no different but slightly more amusing in
-how blatant the irony is: nobody wants to think about the effort that goes into
+The ICD came about as a mortuary rate table, so the central organizing question
+was "how many distinct deaths can be attributed to this code?". As a result,
+niche diseases with few statistical cases were dropped or grouped, whereas
+things like "respiratory illness", accounting for a great chunk of cases, were
+split up further. Of note is that relatively little of that is based on
+treatment options, or severity, only on the mortality statistics.
+
+Yet, despite its origins as a mortuary statistical device, it found adoption in
+hospitals and with doctors needing to communicate, in brief, what someone was
+afflicted with. The ICD simply worked well enough to use directly without
+significant modification in this environment. The information dropped almost
+certainly caused and causes a bunch of pain for practitioners, but it was still,
+by far, the best choice for the job.
+
+A consistent theme in Susan Leigh Star's work on infrastructure is that it tends
+to vanish from sight: We use it, but we're not aware of the effort that goes
+into constructing and maintaining such infrastructure.[^11] This also goes for
+tech and software, which are no different but slightly more amusing in how
+blatant the irony is: nobody wants to think about the effort that goes into
 maintaining and creating things like the Linux kernel, CPUs, cURL, USB drivers,
 and so on, yet they are still used every day to provide... more infrastructure
 to people who don't want to think about the effort it takes to provide them with
 a convenient way to order pants from the internet.
 
-The *perspective* from which the information infrastructure is built matters,
-because it informs what dimensions are first to the chopping block when an
-abstraction is created. The ICD came about as a mortuary rate table, so the
-question was "how many distinct deaths can be attributed to this code?". Niche
-diseases with few statistical cases were dropped or grouped, whereas things like
-"respiratory illness", accounting for a great chunk of cases, were split up
-further. Of noqte is that relatively little of that is based on treatment
-options, or severity, only on the statistics.
+## Kubernetes as ill-fitting solution to everything.
 
-Yet, despite its origins as a mortuary statistical device, it found adoption in
-hospitals and with doctors needing to communicate, in brief, what someone was
-afflicted with. The ICD simply worked well enough to use directly, there was no
-need to adapt it to local use, or change it, or even create a new abstraction
-suited perfectly to the context. It worked. So it was used. The information
-dropped almost certainly caused and causes a bunch of pain for practitioners,
-but it was still, by far, the best choice for the job.
-
-The ICD is a bit like Kubernetes, in the sense that it may have had a narrow,
-intended use case once, but it has since spread into other domains due to
-*usefulness*. It was designed to distribute containers of usually-stateless
+The ICD is a bit like Kubernetes, in the sense that it may have had a more
+narrow, intended use case once, but it has since spread into other domains due
+to *usefulness*. It was designed to distribute containers of usually-stateless
 services over machines. However, it also worked just well enough for other
-things (like running databases, ETL pipelines, *et cetera*), so
-practitioners that were already using it for running stateless
-services over many computers started using it for those secondary targets, as it
-was easier to bodge the task into Kubernetes than it was to stand
-up an entire secondary piece of infrastructure that would allow you to run ETL
-pipelines in not-Kubernetes.
+things (like running databases, ETL pipelines, *et cetera*), so practitioners
+that were already using it for running stateless services over many computers
+started using it for those secondary targets, as it was easier to bodge the task
+into Kubernetes than it was to stand up an entire secondary piece of
+infrastructure that would allow you to run ETL pipelines in not-Kubernetes. Some
+things very much did not stand the test of time and were quietly put aside.[^3]
 
 So the practitioners started creating supplemental infrastructure that would
 ease the pains in using Kubernetes for the thing that was previously hacked in.
@@ -111,13 +129,13 @@ hiring pool size, compensation, especially versus the cost of the infrastructure
 This is why I think that "oh you don't need Kubernetes for this, it's overkill"
 or "you should not choose Kubernetes for running your 10-requests-per-day
 proof-of-concept for your startup" miss the point, these days. That may have
-been a sufficient and complete critique when Kubernetes started out, but it most
-definitely is no longer, and has not been for a while now. It's not just about
-running your tiny proof-of-concept, but also about choosing your infrastructure
-language, and your community of practitioners.
+been a sufficient and complete critique when Kubernetes started out, but it is
+no longer, and has not been for a while now. It's not just about running your
+tiny proof-of-concept, but also about choosing your infrastructure language, and
+your community of practitioners.
 
 Looking down on people for 'only knowing Kubernetes' may have been somewhat
-justified (personally I *don't want* to look down on anyone) when Kubernetes
+justified (personally *I don't want to* look down on anyone) when Kubernetes
 only solved a narrow slice of infrastructure problems, but those times have
 indeed also passed us by for years now. People who only know infrastructure
 through the lens of Kubernetes can still solve all the business problems an
@@ -157,7 +175,8 @@ broader domain has become an infrastructure language unto itself.[^10]
     has no opinions over, say, what does and does not belong in kimchi.
     (Arguably, it has the opinion that it shouldn't contain botulism.)
 
-[^3]:
+[^3]: Anyone remember how you just had to be running a Service Mesh to be With
+    It?
 
 [^4]: Except for the ones that would be a public health danger, a single case
     of, say, malaria is _very_ worth knowing about. Where to make these
@@ -172,7 +191,8 @@ broader domain has become an infrastructure language unto itself.[^10]
 [^6]: God, I *hate* Helm. I realise that text templating is useful and all, but
     Helm manages to be the single most unpleasant and awful programming language
     (since it has logic constructs and repetition) and also packaging format at
-    the same time.
+    the same time. It manages to make me look fondly at plain YAML with its
+    anchors and references.
 
 [^8]: The [CNCF Landscape](https://landscape.cncf.io/) is an omnipresent,
     self-writing joke here.
