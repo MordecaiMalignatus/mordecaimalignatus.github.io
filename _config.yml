@@ -6,6 +6,11 @@ baseurl: ""
 url: "https://rambling.malignat.us"
 twitter_username: m_malignatus
 github_username: MordecaiMalignatus
+twitter:
+  username: m_malignatus
+  card: summary
+author: Mordecai
+logo: /assets/apple-touch-icon.png
 permalink: /:year-:month-:day/:title
 paginate: 30
 
@@ -17,8 +22,15 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-seo-tag
 
 exclude:
   - ideas.org
   - mise.toml
   - Rakefile
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/apple-touch-icon.png

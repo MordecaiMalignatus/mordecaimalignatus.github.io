@@ -2,6 +2,9 @@
 layout: post
 author: Mordecai
 title: "Taking Advantage Of Being Medicated: Revising Pre-Medication Processes."
+image: /assets/adhd-curve/medication_curve.png
+twitter:
+  card: summary_large_image
 ---
 
 Recently, I've been forced to consider precisely *how* I do things, how I work
