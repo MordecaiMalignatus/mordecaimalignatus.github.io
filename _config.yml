@@ -4,11 +4,12 @@ description: >-
   Mordecai's thoughts and ramblings on a great many diverse set of things.
 baseurl: ""
 url: "https://rambling.malignat.us"
-twitter_username: m_malignatus
 github_username: MordecaiMalignatus
-twitter:
-  username: m_malignatus
-  card: summary
+mastodon: "@mordecai@chaos.social"
+social:
+  links:
+    - https://chaos.social/@mordecai
+    - https://bsky.app/profile/mordecaimalignatus.bsky.social
 author: Mordecai
 logo: /assets/apple-touch-icon.png
 permalink: /:year-:month-:day/:title
@@ -28,9 +29,3 @@ exclude:
   - ideas.org
   - mise.toml
   - Rakefile
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      image: /assets/apple-touch-icon.png

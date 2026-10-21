@@ -16,5 +16,8 @@
   {% feed_meta %}
   {% seo title=false %}
   <meta name="theme-color" content="#4a9ae1">
+  {% if site.mastodon %}<meta name="fediverse:creator" content="{{ site.mastodon }}">{% endif %}
+  {% for link in site.social.links %}<link rel="me" href="{{ link }}">
+  {% endfor %}
 
 </head>
